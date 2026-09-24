@@ -67,16 +67,24 @@ class ExternalComboControl(QWidget):
         layout = QHBoxLayout(self)
         layout.setContentsMargins(0, 0, 0, 0)
         layout.setSpacing(3)
-        combo.setSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Expanding)
+        self.setFixedHeight(30)
+        combo.setFixedHeight(30)
+        combo.setSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Fixed)
+        combo.setObjectName("externalComboEditor")
         combo.setStyleSheet(
             combo.styleSheet()
-            + " QComboBox::drop-down { width: 0; border: none; }"
-            + " QComboBox::down-arrow { image: none; width: 0; height: 0; }"
+            + " QComboBox#externalComboEditor { padding-right: 7px; }"
+            + " QComboBox#externalComboEditor::drop-down {"
+            + " subcontrol-origin: padding; subcontrol-position: top right;"
+            + " width: 0px; min-width: 0px; max-width: 0px; border: none;"
+            + " background: transparent; }"
+            + " QComboBox#externalComboEditor::down-arrow {"
+            + " image: none; width: 0px; height: 0px; }"
         )
         layout.addWidget(combo, 1)
         self.drop_button = QToolButton(self)
         self.drop_button.setArrowType(Qt.ArrowType.DownArrow)
-        self.drop_button.setFixedWidth(26)
+        self.drop_button.setFixedSize(30, 30)
         self.drop_button.setStyleSheet(ARROW_STYLE)
         self.drop_button.clicked.connect(combo.showPopup)
         layout.addWidget(self.drop_button)

@@ -2,7 +2,7 @@
 
 from pathlib import Path
 
-from PySide6.QtCore import QSettings, Qt, QTimer
+from PySide6.QtCore import QRect, QSettings, Qt, QTimer
 from PySide6.QtGui import QAction, QCloseEvent, QKeySequence
 from PySide6.QtWidgets import (
     QApplication,
@@ -57,6 +57,8 @@ class MainWindow(QMainWindow):
         self._rebuild_pending = False
         self._force_quit = False
         self._tray_message_shown = False
+        self._restore_was_maximized = False
+        self._restore_geometry: QRect | None = None
         self.settings = QSettings("SatisfactoryBuildCalculator", "SatisfactoryBuildCalculator")
         self.hotkey_manager = GlobalHotkeyManager(self._toggle_visibility)
 
@@ -400,14 +402,39 @@ class MainWindow(QMainWindow):
         self.show()
 
     def _toggle_visibility(self) -> None:
-        if self.isVisible():
-            self.hide()
-            self.tray_toggle_action.setText(tr(self.language, "tray_open"))
+        # A minimized window is still "visible" to Qt. Treat the hotkey as a
+        # restore request in that state instead of hiding it a second time.
+        if self.isMinimized():
+            state = self.windowState() & ~Qt.WindowState.WindowMinimized
+            self.setWindowState(state)
+            self.show()
+            self.raise_()
+            self.activateWindow()
+            self.tray_toggle_action.setText(tr(self.language, "tray_hide"))
             return
-        self.showNormal()
+
+        if self.isVisible():
+            self._hide_to_tray()
+            return
+
+        if self._restore_was_maximized:
+            self.showMaximized()
+        else:
+            self.showNormal()
+            if self._restore_geometry is not None:
+                self.setGeometry(self._restore_geometry)
         self.raise_()
         self.activateWindow()
         self.tray_toggle_action.setText(tr(self.language, "tray_hide"))
+
+    def _hide_to_tray(self) -> None:
+        """Remember the current window shape before hiding it in the tray."""
+
+        self._restore_was_maximized = self.isMaximized()
+        if not self._restore_was_maximized:
+            self._restore_geometry = QRect(self.geometry())
+        self.hide()
+        self.tray_toggle_action.setText(tr(self.language, "tray_open"))
 
     def _quit_application(self) -> None:
         self._force_quit = True
@@ -426,8 +453,7 @@ class MainWindow(QMainWindow):
             QApplication.instance().quit()
             return
         event.ignore()
-        self.hide()
-        self.tray_toggle_action.setText(tr(self.language, "tray_open"))
+        self._hide_to_tray()
         if not self._tray_message_shown:
             shortcut = self.hotkey_manager.sequence.toString(QKeySequence.SequenceFormat.NativeText)
             self.tray_icon.showMessage(

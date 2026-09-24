@@ -159,6 +159,11 @@ class UiInteractionTests(unittest.TestCase):
         combo_right = combo_control.combo.geometry().right()
         button_left = combo_control.drop_button.geometry().left()
         self.assertGreater(button_left, combo_right)
+        self.assertEqual(combo_control.combo.height(), combo_control.drop_button.height())
+        self.assertEqual(combo_control.combo.height(), 30)
+        self.assertIn("QComboBox#externalComboEditor::down-arrow", combo_control.combo.styleSheet())
+        self.assertIn("image: none", combo_control.combo.styleSheet())
+        self.assertIsNot(RecipeComboBox.paintEvent, QComboBox.paintEvent)
 
     def test_generator_display_names_use_generator_term(self) -> None:
         generator_names = [
@@ -361,6 +366,25 @@ class UiInteractionTests(unittest.TestCase):
         self.assertFalse(self.window.isVisible())
         self.window._toggle_visibility()
         self.assertTrue(self.window.isVisible())
+
+    def test_tray_restore_preserves_normal_geometry_and_maximized_state(self) -> None:
+        self.window.showNormal()
+        self.window.setGeometry(130, 90, 1110, 690)
+        self.app.processEvents()
+        expected = self.window.geometry()
+        self.window._toggle_visibility()
+        self.assertFalse(self.window.isVisible())
+        self.window._toggle_visibility()
+        self.app.processEvents()
+        self.assertEqual(self.window.geometry(), expected)
+
+        self.window.showMaximized()
+        self.app.processEvents()
+        self.window._toggle_visibility()
+        self.assertFalse(self.window.isVisible())
+        self.window._toggle_visibility()
+        self.app.processEvents()
+        self.assertTrue(self.window.isMaximized())
 
     def test_fit_all_keeps_pan_room(self) -> None:
         self.window.show()

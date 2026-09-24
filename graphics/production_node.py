@@ -3,7 +3,7 @@
 from collections.abc import Callable
 
 from PySide6.QtCore import QRectF, Qt
-from PySide6.QtGui import QColor, QFont, QPainter, QPen
+from PySide6.QtGui import QColor, QFont, QPainter, QPaintEvent, QPen
 from PySide6.QtWidgets import QGraphicsItem, QGraphicsProxyWidget, QComboBox, QSpinBox, QToolButton
 
 from core.data_loader import ProductionData
@@ -48,6 +48,29 @@ class RecipeComboBox(QComboBox):
             popup_height = sum(row_heights[:10]) + view.frameWidth() * 2 + 2
             view.setMinimumHeight(0)
             view.setMaximumHeight(popup_height)
+
+    def paintEvent(self, event: QPaintEvent) -> None:
+        """Paint only the recipe text field; the wrapper owns the arrow.
+
+        On Windows, Qt's stylesheet engine can keep drawing the native combo
+        arrow even when its sub-control has zero width. Drawing this compact
+        field ourselves prevents that second arrow without changing popup or
+        keyboard behaviour.
+        """
+
+        painter = QPainter(self)
+        painter.setRenderHint(QPainter.RenderHint.Antialiasing)
+        rect = self.rect().adjusted(1, 1, -1, -1)
+        painter.setBrush(QColor("#0d171d"))
+        painter.setPen(QPen(QColor("#d89a45" if self.hasFocus() else "#53626d"), 1))
+        painter.drawRoundedRect(rect, 4, 4)
+        painter.setFont(self.font())
+        painter.setPen(QColor("#f4f1e9"))
+        text_rect = rect.adjusted(7, 0, -7, 0)
+        text = painter.fontMetrics().elidedText(
+            self.currentText(), Qt.TextElideMode.ElideRight, text_rect.width()
+        )
+        painter.drawText(text_rect, Qt.AlignmentFlag.AlignVCenter, text)
 
     def showPopup(self) -> None:
         try:
