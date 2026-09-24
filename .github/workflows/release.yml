@@ -29,7 +29,8 @@ jobs:
       - name: Build single-file executable
         run: >-
           python -m PyInstaller --noconfirm --clean --onefile --windowed
-          --name SatisfactoryBuildCalculator --add-data "data;data" main.py
+          --name SatisfactoryBuildCalculator --version-file version_info.txt
+          --add-data "data;data" main.py
       - name: Create checksum
         shell: pwsh
         run: |
