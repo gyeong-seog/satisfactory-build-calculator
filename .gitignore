@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+.venv-build/
+venv/
+
+# Build outputs
+build/
+build-*/
+dist/
+dist-*/
+release/
+work/
+*.spec
+
+# Game source/localization exports are not redistributed
+data/source/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,3 @@
+# PySide6 6.11.x currently produces a QtWidgets DLL conflict in the
+# Windows one-file PyInstaller build. Keep the verified packaging version.
+PySide6==6.8.3

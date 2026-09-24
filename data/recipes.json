@@ -1,0 +1,6359 @@
+[
+  {
+    "id": "Recipe_Alternate_AutomatedMiner_C",
+    "name": "대체: 자동화된 채굴기",
+    "name_en": "Alternate: Automated Miner",
+    "output_item_id": "BP_ItemDescriptorPortableMiner_C",
+    "output_amount": 1.0,
+    "duration_seconds": 60.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_SteelPipe_C",
+        "amount": 4.0
+      },
+      {
+        "item_id": "Desc_IronPlate_C",
+        "amount": 4.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_AlienDNACapsule_C",
+    "name": "외계 DNA 캡슐",
+    "name_en": "Alien DNA Capsule",
+    "output_item_id": "Desc_AlienDNACapsule_C",
+    "output_amount": 1.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_ConstructorMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_AlienProtein_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_AlienPowerFuel_C",
+    "name": "외계 동력 매트릭스",
+    "name_en": "Alien Power Matrix",
+    "output_item_id": "Desc_AlienPowerFuel_C",
+    "output_amount": 1.0,
+    "duration_seconds": 24.0,
+    "building_id": "Build_QuantumEncoder_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_SAMFluctuator_C",
+        "amount": 5.0
+      },
+      {
+        "item_id": "Desc_CrystalShard_C",
+        "amount": 3.0
+      },
+      {
+        "item_id": "Desc_QuantumOscillator_C",
+        "amount": 3.0
+      },
+      {
+        "item_id": "Desc_QuantumEnergy_C",
+        "amount": 24.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Protein_Hog_C",
+    "name": "호그 단백질",
+    "name_en": "Hog Protein",
+    "output_item_id": "Desc_AlienProtein_C",
+    "output_amount": 1.0,
+    "duration_seconds": 3.0,
+    "building_id": "Build_ConstructorMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_HogParts_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Protein_Crab_C",
+    "name": "해처 단백질",
+    "name_en": "Hatcher Protein",
+    "output_item_id": "Desc_AlienProtein_C",
+    "output_amount": 1.0,
+    "duration_seconds": 3.0,
+    "building_id": "Build_ConstructorMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_HatcherParts_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Protein_Spitter_C",
+    "name": "스피터 단백질",
+    "name_en": "Spitter Protein",
+    "output_item_id": "Desc_AlienProtein_C",
+    "output_amount": 1.0,
+    "duration_seconds": 3.0,
+    "building_id": "Build_ConstructorMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_SpitterParts_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Protein_Stinger_C",
+    "name": "스팅어 단백질",
+    "name_en": "Stinger Protein",
+    "output_item_id": "Desc_AlienProtein_C",
+    "output_amount": 1.0,
+    "duration_seconds": 3.0,
+    "building_id": "Build_ConstructorMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_StingerParts_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_AluminaSolution_C",
+    "name": "알루미나 용액",
+    "name_en": "Alumina Solution",
+    "output_item_id": "Desc_AluminaSolution_C",
+    "output_amount": 12.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_OilRefinery_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_OreBauxite_C",
+        "amount": 12.0
+      },
+      {
+        "item_id": "Desc_Water_C",
+        "amount": 18.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_SloppyAlumina_C",
+    "name": "대체: 걸쭉한 알루미나",
+    "name_en": "Alternate: Sloppy Alumina",
+    "output_item_id": "Desc_AluminaSolution_C",
+    "output_amount": 12.0,
+    "duration_seconds": 3.0,
+    "building_id": "Build_OilRefinery_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_OreBauxite_C",
+        "amount": 10.0
+      },
+      {
+        "item_id": "Desc_Water_C",
+        "amount": 10.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_UnpackageAlumina_C",
+    "name": "알루미나 용액 비우기",
+    "name_en": "Unpackage Alumina Solution",
+    "output_item_id": "Desc_AluminaSolution_C",
+    "output_amount": 2.0,
+    "duration_seconds": 1.0,
+    "building_id": "Build_Packager_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_PackagedAlumina_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_AluminumCasing_C",
+    "name": "알루미늄 케이스",
+    "name_en": "Aluminum Casing",
+    "output_item_id": "Desc_AluminumCasing_C",
+    "output_amount": 2.0,
+    "duration_seconds": 2.0,
+    "building_id": "Build_ConstructorMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_AluminumIngot_C",
+        "amount": 3.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_AlcladCasing_C",
+    "name": "대체: 알클래드 케이스",
+    "name_en": "Alternate: Alclad Casing",
+    "output_item_id": "Desc_AluminumCasing_C",
+    "output_amount": 15.0,
+    "duration_seconds": 8.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_AluminumIngot_C",
+        "amount": 20.0
+      },
+      {
+        "item_id": "Desc_CopperIngot_C",
+        "amount": 10.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_IngotAluminum_C",
+    "name": "알루미늄 주괴",
+    "name_en": "Aluminum Ingot",
+    "output_item_id": "Desc_AluminumIngot_C",
+    "output_amount": 4.0,
+    "duration_seconds": 4.0,
+    "building_id": "Build_FoundryMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_AluminumScrap_C",
+        "amount": 6.0
+      },
+      {
+        "item_id": "Desc_Silica_C",
+        "amount": 5.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_PureAluminumIngot_C",
+    "name": "대체: 순수한 알루미늄 주괴",
+    "name_en": "Alternate: Pure Aluminum Ingot",
+    "output_item_id": "Desc_AluminumIngot_C",
+    "output_amount": 1.0,
+    "duration_seconds": 2.0,
+    "building_id": "Build_SmelterMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_AluminumScrap_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_HeatSink_C",
+    "name": "방열판",
+    "name_en": "Heat Sink",
+    "output_item_id": "Desc_AluminumPlateReinforced_C",
+    "output_amount": 1.0,
+    "duration_seconds": 8.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_AluminumPlate_C",
+        "amount": 5.0
+      },
+      {
+        "item_id": "Desc_CopperSheet_C",
+        "amount": 3.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_HeatSink_1_C",
+    "name": "대체: 열 교환기",
+    "name_en": "Alternate: Heat Exchanger",
+    "output_item_id": "Desc_AluminumPlateReinforced_C",
+    "output_amount": 1.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_AluminumCasing_C",
+        "amount": 3.0
+      },
+      {
+        "item_id": "Desc_Rubber_C",
+        "amount": 3.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_AluminumSheet_C",
+    "name": "알클래드 알루미늄 판",
+    "name_en": "Alclad Aluminum Sheet",
+    "output_item_id": "Desc_AluminumPlate_C",
+    "output_amount": 3.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_AluminumIngot_C",
+        "amount": 3.0
+      },
+      {
+        "item_id": "Desc_CopperIngot_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_AluminumScrap_C",
+    "name": "알루미늄 조각",
+    "name_en": "Aluminum Scrap",
+    "output_item_id": "Desc_AluminumScrap_C",
+    "output_amount": 6.0,
+    "duration_seconds": 1.0,
+    "building_id": "Build_OilRefinery_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_AluminaSolution_C",
+        "amount": 4.0
+      },
+      {
+        "item_id": "Desc_Coal_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_ElectroAluminumScrap_C",
+    "name": "대체: 전극 알루미늄 조각",
+    "name_en": "Alternate: Electrode Aluminum Scrap",
+    "output_item_id": "Desc_AluminumScrap_C",
+    "output_amount": 20.0,
+    "duration_seconds": 4.0,
+    "building_id": "Build_OilRefinery_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_AluminaSolution_C",
+        "amount": 12.0
+      },
+      {
+        "item_id": "Desc_PetroleumCoke_C",
+        "amount": 4.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Alternate_InstantScrap_C",
+    "name": "대체: 즉석 조각",
+    "name_en": "Alternate: Instant Scrap",
+    "output_item_id": "Desc_AluminumScrap_C",
+    "output_amount": 30.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_Blender_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_OreBauxite_C",
+        "amount": 15.0
+      },
+      {
+        "item_id": "Desc_Coal_C",
+        "amount": 10.0
+      },
+      {
+        "item_id": "Desc_SulfuricAcid_C",
+        "amount": 5.0
+      },
+      {
+        "item_id": "Desc_Water_C",
+        "amount": 6.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Battery_C",
+    "name": "배터리",
+    "name_en": "Battery",
+    "output_item_id": "Desc_Battery_C",
+    "output_amount": 1.0,
+    "duration_seconds": 3.0,
+    "building_id": "Build_Blender_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_SulfuricAcid_C",
+        "amount": 2.5
+      },
+      {
+        "item_id": "Desc_AluminaSolution_C",
+        "amount": 2.0
+      },
+      {
+        "item_id": "Desc_AluminumCasing_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_ClassicBattery_C",
+    "name": "대체: 고전식 배터리",
+    "name_en": "Alternate: Classic Battery",
+    "output_item_id": "Desc_Battery_C",
+    "output_amount": 4.0,
+    "duration_seconds": 8.0,
+    "building_id": "Build_ManufacturerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Sulfur_C",
+        "amount": 6.0
+      },
+      {
+        "item_id": "Desc_AluminumPlate_C",
+        "amount": 7.0
+      },
+      {
+        "item_id": "Desc_Plastic_C",
+        "amount": 8.0
+      },
+      {
+        "item_id": "Desc_Wire_C",
+        "amount": 12.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Biofuel_C",
+    "name": "고체 바이오 연료",
+    "name_en": "Solid Biofuel",
+    "output_item_id": "Desc_Biofuel_C",
+    "output_amount": 4.0,
+    "duration_seconds": 4.0,
+    "building_id": "Build_ConstructorMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_GenericBiomass_C",
+        "amount": 8.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Cable_C",
+    "name": "케이블",
+    "name_en": "Cable",
+    "output_item_id": "Desc_Cable_C",
+    "output_amount": 1.0,
+    "duration_seconds": 2.0,
+    "building_id": "Build_ConstructorMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Wire_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_Cable_1_C",
+    "name": "대체: 절연 케이블",
+    "name_en": "Alternate: Insulated Cable",
+    "output_item_id": "Desc_Cable_C",
+    "output_amount": 20.0,
+    "duration_seconds": 12.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Wire_C",
+        "amount": 9.0
+      },
+      {
+        "item_id": "Desc_Rubber_C",
+        "amount": 6.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Alternate_Cable_2_C",
+    "name": "대체: 고속 전선 케이블",
+    "name_en": "Alternate: Quickwire Cable",
+    "output_item_id": "Desc_Cable_C",
+    "output_amount": 11.0,
+    "duration_seconds": 24.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_HighSpeedWire_C",
+        "amount": 3.0
+      },
+      {
+        "item_id": "Desc_Rubber_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Alternate_CoatedCable_C",
+    "name": "대체: 코팅된 케이블",
+    "name_en": "Alternate: Coated Cable",
+    "output_item_id": "Desc_Cable_C",
+    "output_amount": 9.0,
+    "duration_seconds": 8.0,
+    "building_id": "Build_OilRefinery_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Wire_C",
+        "amount": 5.0
+      },
+      {
+        "item_id": "Desc_HeavyOilResidue_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_CartridgeChaos_C",
+    "name": "소총 터보 탄약",
+    "name_en": "Turbo Rifle Ammo",
+    "output_item_id": "Desc_CartridgeChaos_C",
+    "output_amount": 50.0,
+    "duration_seconds": 12.0,
+    "building_id": "Build_Blender_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_CartridgeStandard_C",
+        "amount": 25.0
+      },
+      {
+        "item_id": "Desc_AluminumCasing_C",
+        "amount": 3.0
+      },
+      {
+        "item_id": "Desc_LiquidTurboFuel_C",
+        "amount": 3.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_CartridgeChaos_Packaged_C",
+    "name": "소총 터보 탄약",
+    "name_en": "Turbo Rifle Ammo",
+    "output_item_id": "Desc_CartridgeChaos_C",
+    "output_amount": 50.0,
+    "duration_seconds": 12.0,
+    "building_id": "Build_ManufacturerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_CartridgeStandard_C",
+        "amount": 25.0
+      },
+      {
+        "item_id": "Desc_AluminumCasing_C",
+        "amount": 3.0
+      },
+      {
+        "item_id": "Desc_TurboFuel_C",
+        "amount": 3.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_CartridgeSmart_C",
+    "name": "소총 추적 탄약",
+    "name_en": "Homing Rifle Ammo",
+    "output_item_id": "Desc_CartridgeSmartProjectile_C",
+    "output_amount": 10.0,
+    "duration_seconds": 24.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_CartridgeStandard_C",
+        "amount": 20.0
+      },
+      {
+        "item_id": "Desc_HighSpeedConnector_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Cartridge_C",
+    "name": "소총 탄약",
+    "name_en": "Rifle Ammo",
+    "output_item_id": "Desc_CartridgeStandard_C",
+    "output_amount": 15.0,
+    "duration_seconds": 12.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_CopperSheet_C",
+        "amount": 3.0
+      },
+      {
+        "item_id": "Desc_GunpowderMK2_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Concrete_C",
+    "name": "콘크리트",
+    "name_en": "Concrete",
+    "output_item_id": "Desc_Cement_C",
+    "output_amount": 1.0,
+    "duration_seconds": 4.0,
+    "building_id": "Build_ConstructorMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Stone_C",
+        "amount": 3.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_Concrete_C",
+    "name": "대체: 개선된 콘크리트",
+    "name_en": "Alternate: Fine Concrete",
+    "output_item_id": "Desc_Cement_C",
+    "output_amount": 10.0,
+    "duration_seconds": 12.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Silica_C",
+        "amount": 3.0
+      },
+      {
+        "item_id": "Desc_Stone_C",
+        "amount": 12.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Alternate_RubberConcrete_C",
+    "name": "대체: 고무 콘크리트",
+    "name_en": "Alternate: Rubber Concrete",
+    "output_item_id": "Desc_Cement_C",
+    "output_amount": 9.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Stone_C",
+        "amount": 10.0
+      },
+      {
+        "item_id": "Desc_Rubber_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Alternate_WetConcrete_C",
+    "name": "대체: 습식 콘크리트",
+    "name_en": "Alternate: Wet Concrete",
+    "output_item_id": "Desc_Cement_C",
+    "output_amount": 4.0,
+    "duration_seconds": 3.0,
+    "building_id": "Build_OilRefinery_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Stone_C",
+        "amount": 6.0
+      },
+      {
+        "item_id": "Desc_Water_C",
+        "amount": 5.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_AILimiter_C",
+    "name": "인공지능 진폭 제한 회로",
+    "name_en": "AI Limiter",
+    "output_item_id": "Desc_CircuitBoardHighSpeed_C",
+    "output_amount": 1.0,
+    "duration_seconds": 12.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_CopperSheet_C",
+        "amount": 5.0
+      },
+      {
+        "item_id": "Desc_HighSpeedWire_C",
+        "amount": 20.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_AILimiter_Plastic_C",
+    "name": "대체: 플라스틱 인공지능 진폭 제한 회로",
+    "name_en": "Alternate: Plastic AI Limiter",
+    "output_item_id": "Desc_CircuitBoardHighSpeed_C",
+    "output_amount": 2.0,
+    "duration_seconds": 15.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_HighSpeedWire_C",
+        "amount": 30.0
+      },
+      {
+        "item_id": "Desc_Plastic_C",
+        "amount": 7.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_CircuitBoard_C",
+    "name": "회로 기판",
+    "name_en": "Circuit Board",
+    "output_item_id": "Desc_CircuitBoard_C",
+    "output_amount": 1.0,
+    "duration_seconds": 8.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_CopperSheet_C",
+        "amount": 2.0
+      },
+      {
+        "item_id": "Desc_Plastic_C",
+        "amount": 4.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_CircuitBoard_1_C",
+    "name": "대체: 실리콘 회로 기판",
+    "name_en": "Alternate: Silicon Circuit Board",
+    "output_item_id": "Desc_CircuitBoard_C",
+    "output_amount": 5.0,
+    "duration_seconds": 24.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_CopperSheet_C",
+        "amount": 11.0
+      },
+      {
+        "item_id": "Desc_Silica_C",
+        "amount": 11.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Alternate_CircuitBoard_2_C",
+    "name": "대체: 카테리움 회로 기판",
+    "name_en": "Alternate: Caterium Circuit Board",
+    "output_item_id": "Desc_CircuitBoard_C",
+    "output_amount": 7.0,
+    "duration_seconds": 48.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Plastic_C",
+        "amount": 10.0
+      },
+      {
+        "item_id": "Desc_HighSpeedWire_C",
+        "amount": 30.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Alternate_ElectrodeCircuitBoard_C",
+    "name": "대체: 전극 회로 기판",
+    "name_en": "Alternate: Electrode Circuit Board",
+    "output_item_id": "Desc_CircuitBoard_C",
+    "output_amount": 1.0,
+    "duration_seconds": 12.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Rubber_C",
+        "amount": 4.0
+      },
+      {
+        "item_id": "Desc_PetroleumCoke_C",
+        "amount": 8.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Coal_Limestone_C",
+    "name": "석탄 (석회석)",
+    "name_en": "Coal (Limestone)",
+    "output_item_id": "Desc_Coal_C",
+    "output_amount": 12.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_Converter_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_SAMIngot_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_Stone_C",
+        "amount": 36.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_Coal_1_C",
+    "name": "대체: 목탄",
+    "name_en": "Alternate: Charcoal",
+    "output_item_id": "Desc_Coal_C",
+    "output_amount": 10.0,
+    "duration_seconds": 4.0,
+    "building_id": "Build_ConstructorMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Wood_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Alternate_Coal_2_C",
+    "name": "대체: 유기 석탄",
+    "name_en": "Alternate: Biocoal",
+    "output_item_id": "Desc_Coal_C",
+    "output_amount": 6.0,
+    "duration_seconds": 8.0,
+    "building_id": "Build_ConstructorMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_GenericBiomass_C",
+        "amount": 5.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Coal_Iron_C",
+    "name": "석탄 (철)",
+    "name_en": "Coal (Iron)",
+    "output_item_id": "Desc_Coal_C",
+    "output_amount": 12.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_Converter_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_SAMIngot_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_OreIron_C",
+        "amount": 18.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_EnrichedCoal_C",
+    "name": "대체: 압축 석탄",
+    "name_en": "Alternate: Compacted Coal",
+    "output_item_id": "Desc_CompactedCoal_C",
+    "output_amount": 5.0,
+    "duration_seconds": 12.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Coal_C",
+        "amount": 5.0
+      },
+      {
+        "item_id": "Desc_Sulfur_C",
+        "amount": 5.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_ComputerSuper_C",
+    "name": "슈퍼컴퓨터",
+    "name_en": "Supercomputer",
+    "output_item_id": "Desc_ComputerSuper_C",
+    "output_amount": 1.0,
+    "duration_seconds": 32.0,
+    "building_id": "Build_ManufacturerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Computer_C",
+        "amount": 4.0
+      },
+      {
+        "item_id": "Desc_CircuitBoardHighSpeed_C",
+        "amount": 2.0
+      },
+      {
+        "item_id": "Desc_HighSpeedConnector_C",
+        "amount": 3.0
+      },
+      {
+        "item_id": "Desc_Plastic_C",
+        "amount": 28.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_OCSupercomputer_C",
+    "name": "대체: 오버클럭 슈퍼컴퓨터",
+    "name_en": "Alternate: OC Supercomputer",
+    "output_item_id": "Desc_ComputerSuper_C",
+    "output_amount": 1.0,
+    "duration_seconds": 20.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_ModularFrameLightweight_C",
+        "amount": 2.0
+      },
+      {
+        "item_id": "Desc_CoolingSystem_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Alternate_SuperStateComputer_C",
+    "name": "대체: 초상태 컴퓨터",
+    "name_en": "Alternate: Super-State Computer",
+    "output_item_id": "Desc_ComputerSuper_C",
+    "output_amount": 1.0,
+    "duration_seconds": 25.0,
+    "building_id": "Build_ManufacturerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Computer_C",
+        "amount": 3.0
+      },
+      {
+        "item_id": "Desc_ElectromagneticControlRod_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_Battery_C",
+        "amount": 10.0
+      },
+      {
+        "item_id": "Desc_Wire_C",
+        "amount": 25.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Computer_C",
+    "name": "컴퓨터",
+    "name_en": "Computer",
+    "output_item_id": "Desc_Computer_C",
+    "output_amount": 1.0,
+    "duration_seconds": 24.0,
+    "building_id": "Build_ManufacturerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_CircuitBoard_C",
+        "amount": 4.0
+      },
+      {
+        "item_id": "Desc_Cable_C",
+        "amount": 8.0
+      },
+      {
+        "item_id": "Desc_Plastic_C",
+        "amount": 16.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_Computer_1_C",
+    "name": "대체: 카테리움 컴퓨터",
+    "name_en": "Alternate: Caterium Computer",
+    "output_item_id": "Desc_Computer_C",
+    "output_amount": 1.0,
+    "duration_seconds": 16.0,
+    "building_id": "Build_ManufacturerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_CircuitBoard_C",
+        "amount": 4.0
+      },
+      {
+        "item_id": "Desc_HighSpeedWire_C",
+        "amount": 14.0
+      },
+      {
+        "item_id": "Desc_Rubber_C",
+        "amount": 6.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Alternate_Computer_2_C",
+    "name": "대체: 수정 컴퓨터",
+    "name_en": "Alternate: Crystal Computer",
+    "output_item_id": "Desc_Computer_C",
+    "output_amount": 2.0,
+    "duration_seconds": 36.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_CircuitBoard_C",
+        "amount": 3.0
+      },
+      {
+        "item_id": "Desc_CrystalOscillator_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_CoolingSystem_C",
+    "name": "냉각 시스템",
+    "name_en": "Cooling System",
+    "output_item_id": "Desc_CoolingSystem_C",
+    "output_amount": 1.0,
+    "duration_seconds": 10.0,
+    "building_id": "Build_Blender_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_AluminumPlateReinforced_C",
+        "amount": 2.0
+      },
+      {
+        "item_id": "Desc_Rubber_C",
+        "amount": 2.0
+      },
+      {
+        "item_id": "Desc_Water_C",
+        "amount": 5.0
+      },
+      {
+        "item_id": "Desc_NitrogenGas_C",
+        "amount": 25.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_CoolingDevice_C",
+    "name": "대체: 냉각 장치",
+    "name_en": "Alternate: Cooling Device",
+    "output_item_id": "Desc_CoolingSystem_C",
+    "output_amount": 2.0,
+    "duration_seconds": 24.0,
+    "building_id": "Build_Blender_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_AluminumPlateReinforced_C",
+        "amount": 4.0
+      },
+      {
+        "item_id": "Desc_Motor_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_NitrogenGas_C",
+        "amount": 24.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_CopperDust_C",
+    "name": "구리 분말",
+    "name_en": "Copper Powder",
+    "output_item_id": "Desc_CopperDust_C",
+    "output_amount": 5.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_ConstructorMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_CopperIngot_C",
+        "amount": 30.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_IngotCopper_C",
+    "name": "구리 주괴",
+    "name_en": "Copper Ingot",
+    "output_item_id": "Desc_CopperIngot_C",
+    "output_amount": 1.0,
+    "duration_seconds": 2.0,
+    "building_id": "Build_SmelterMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_OreCopper_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_CopperAlloyIngot_C",
+    "name": "대체: 구리 합금 주괴",
+    "name_en": "Alternate: Copper Alloy Ingot",
+    "output_item_id": "Desc_CopperIngot_C",
+    "output_amount": 10.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_FoundryMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_OreCopper_C",
+        "amount": 5.0
+      },
+      {
+        "item_id": "Desc_OreIron_C",
+        "amount": 5.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Alternate_CopperIngot_Leached_C",
+    "name": "대체: 침출된 구리 주괴",
+    "name_en": "Alternate: Leached Copper Ingot",
+    "output_item_id": "Desc_CopperIngot_C",
+    "output_amount": 22.0,
+    "duration_seconds": 12.0,
+    "building_id": "Build_OilRefinery_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_OreCopper_C",
+        "amount": 9.0
+      },
+      {
+        "item_id": "Desc_SulfuricAcid_C",
+        "amount": 5.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Alternate_CopperIngot_Tempered_C",
+    "name": "대체: 단련된 구리 주괴",
+    "name_en": "Alternate: Tempered Copper Ingot",
+    "output_item_id": "Desc_CopperIngot_C",
+    "output_amount": 12.0,
+    "duration_seconds": 12.0,
+    "building_id": "Build_FoundryMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_OreCopper_C",
+        "amount": 5.0
+      },
+      {
+        "item_id": "Desc_PetroleumCoke_C",
+        "amount": 8.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Alternate_PureCopperIngot_C",
+    "name": "대체: 순수한 구리 주괴",
+    "name_en": "Alternate: Pure Copper Ingot",
+    "output_item_id": "Desc_CopperIngot_C",
+    "output_amount": 15.0,
+    "duration_seconds": 24.0,
+    "building_id": "Build_OilRefinery_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_OreCopper_C",
+        "amount": 6.0
+      },
+      {
+        "item_id": "Desc_Water_C",
+        "amount": 4.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_CopperSheet_C",
+    "name": "구리판",
+    "name_en": "Copper Sheet",
+    "output_item_id": "Desc_CopperSheet_C",
+    "output_amount": 1.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_ConstructorMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_CopperIngot_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_SteamedCopperSheet_C",
+    "name": "대체: 가압된 구리판",
+    "name_en": "Alternate: Steamed Copper Sheet",
+    "output_item_id": "Desc_CopperSheet_C",
+    "output_amount": 3.0,
+    "duration_seconds": 8.0,
+    "building_id": "Build_OilRefinery_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_CopperIngot_C",
+        "amount": 3.0
+      },
+      {
+        "item_id": "Desc_Water_C",
+        "amount": 3.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_CrystalOscillator_C",
+    "name": "수정 발진기",
+    "name_en": "Crystal Oscillator",
+    "output_item_id": "Desc_CrystalOscillator_C",
+    "output_amount": 2.0,
+    "duration_seconds": 120.0,
+    "building_id": "Build_ManufacturerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_QuartzCrystal_C",
+        "amount": 36.0
+      },
+      {
+        "item_id": "Desc_Cable_C",
+        "amount": 28.0
+      },
+      {
+        "item_id": "Desc_IronPlateReinforced_C",
+        "amount": 5.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_CrystalOscillator_C",
+    "name": "대체: 절연 수정 발진기",
+    "name_en": "Alternate: Insulated Crystal Oscillator",
+    "output_item_id": "Desc_CrystalOscillator_C",
+    "output_amount": 1.0,
+    "duration_seconds": 32.0,
+    "building_id": "Build_ManufacturerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_QuartzCrystal_C",
+        "amount": 10.0
+      },
+      {
+        "item_id": "Desc_Rubber_C",
+        "amount": 7.0
+      },
+      {
+        "item_id": "Desc_CircuitBoardHighSpeed_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_PowerCrystalShard_1_C",
+    "name": "동력 조각 (1)",
+    "name_en": "Power Shard (1)",
+    "output_item_id": "Desc_CrystalShard_C",
+    "output_amount": 1.0,
+    "duration_seconds": 8.0,
+    "building_id": "Build_ConstructorMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Crystal_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_PowerCrystalShard_2_C",
+    "name": "동력 조각 (2)",
+    "name_en": "Power Shard (2)",
+    "output_item_id": "Desc_CrystalShard_C",
+    "output_amount": 2.0,
+    "duration_seconds": 12.0,
+    "building_id": "Build_ConstructorMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Crystal_mk2_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_PowerCrystalShard_3_C",
+    "name": "동력 조각 (5)",
+    "name_en": "Power Shard (5)",
+    "output_item_id": "Desc_CrystalShard_C",
+    "output_amount": 5.0,
+    "duration_seconds": 24.0,
+    "building_id": "Build_ConstructorMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Crystal_mk3_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_SyntheticPowerShard_C",
+    "name": "합성 동력 조각",
+    "name_en": "Synthetic Power Shard",
+    "output_item_id": "Desc_CrystalShard_C",
+    "output_amount": 1.0,
+    "duration_seconds": 12.0,
+    "building_id": "Build_QuantumEncoder_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_TimeCrystal_C",
+        "amount": 2.0
+      },
+      {
+        "item_id": "Desc_DarkMatter_C",
+        "amount": 2.0
+      },
+      {
+        "item_id": "Desc_QuartzCrystal_C",
+        "amount": 12.0
+      },
+      {
+        "item_id": "Desc_QuantumEnergy_C",
+        "amount": 12.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_DarkEnergy_C",
+    "name": "암흑 물질 잔여물",
+    "name_en": "Dark Matter Residue",
+    "output_item_id": "Desc_DarkEnergy_C",
+    "output_amount": 10.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_Converter_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_SAMIngot_C",
+        "amount": 5.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_DarkMatter_C",
+    "name": "암흑 물질 수정",
+    "name_en": "Dark Matter Crystal",
+    "output_item_id": "Desc_DarkMatter_C",
+    "output_amount": 1.0,
+    "duration_seconds": 2.0,
+    "building_id": "Build_HadronCollider_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Diamond_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_DarkEnergy_C",
+        "amount": 5.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_DarkMatter_Crystallization_C",
+    "name": "대체: 암흑 물질 결정화",
+    "name_en": "Alternate: Dark Matter Crystallization",
+    "output_item_id": "Desc_DarkMatter_C",
+    "output_amount": 1.0,
+    "duration_seconds": 3.0,
+    "building_id": "Build_HadronCollider_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_DarkEnergy_C",
+        "amount": 10.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Alternate_DarkMatter_Trap_C",
+    "name": "대체: 암흑 물질 트랩",
+    "name_en": "Alternate: Dark Matter Trap",
+    "output_item_id": "Desc_DarkMatter_C",
+    "output_amount": 2.0,
+    "duration_seconds": 2.0,
+    "building_id": "Build_HadronCollider_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_TimeCrystal_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_DarkEnergy_C",
+        "amount": 5.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Diamond_C",
+    "name": "다이아몬드",
+    "name_en": "Diamonds",
+    "output_item_id": "Desc_Diamond_C",
+    "output_amount": 1.0,
+    "duration_seconds": 2.0,
+    "building_id": "Build_HadronCollider_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Coal_C",
+        "amount": 20.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_Diamond_Cloudy_C",
+    "name": "대체: 혼탁한 다이아몬드",
+    "name_en": "Alternate: Cloudy Diamonds",
+    "output_item_id": "Desc_Diamond_C",
+    "output_amount": 1.0,
+    "duration_seconds": 3.0,
+    "building_id": "Build_HadronCollider_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Coal_C",
+        "amount": 12.0
+      },
+      {
+        "item_id": "Desc_Stone_C",
+        "amount": 24.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Alternate_Diamond_OilBased_C",
+    "name": "대체: 기름 기반 다이아몬드",
+    "name_en": "Alternate: Oil-Based Diamonds",
+    "output_item_id": "Desc_Diamond_C",
+    "output_amount": 2.0,
+    "duration_seconds": 3.0,
+    "building_id": "Build_HadronCollider_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_LiquidOil_C",
+        "amount": 10.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Alternate_Diamond_Petroleum_C",
+    "name": "대체: 석유 다이아몬드",
+    "name_en": "Alternate: Petroleum Diamonds",
+    "output_item_id": "Desc_Diamond_C",
+    "output_amount": 1.0,
+    "duration_seconds": 2.0,
+    "building_id": "Build_HadronCollider_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_PetroleumCoke_C",
+        "amount": 24.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Alternate_Diamond_Pink_C",
+    "name": "대체: 분홍 다이아몬드",
+    "name_en": "Alternate: Pink Diamonds",
+    "output_item_id": "Desc_Diamond_C",
+    "output_amount": 1.0,
+    "duration_seconds": 4.0,
+    "building_id": "Build_Converter_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Coal_C",
+        "amount": 8.0
+      },
+      {
+        "item_id": "Desc_QuartzCrystal_C",
+        "amount": 3.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Alternate_Diamond_Turbo_C",
+    "name": "대체: 터보 다이아몬드",
+    "name_en": "Alternate: Turbo Diamonds",
+    "output_item_id": "Desc_Diamond_C",
+    "output_amount": 3.0,
+    "duration_seconds": 3.0,
+    "building_id": "Build_HadronCollider_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Coal_C",
+        "amount": 30.0
+      },
+      {
+        "item_id": "Desc_TurboFuel_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_ElectromagneticControlRod_C",
+    "name": "전자기 제어봉",
+    "name_en": "Electromagnetic Control Rod",
+    "output_item_id": "Desc_ElectromagneticControlRod_C",
+    "output_amount": 2.0,
+    "duration_seconds": 30.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Stator_C",
+        "amount": 3.0
+      },
+      {
+        "item_id": "Desc_CircuitBoardHighSpeed_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_ElectromagneticControlRod_1_C",
+    "name": "대체: 전자기 연결봉",
+    "name_en": "Alternate: Electromagnetic Connection Rod",
+    "output_item_id": "Desc_ElectromagneticControlRod_C",
+    "output_amount": 2.0,
+    "duration_seconds": 15.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Stator_C",
+        "amount": 2.0
+      },
+      {
+        "item_id": "Desc_HighSpeedConnector_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Fabric_C",
+    "name": "직물",
+    "name_en": "Fabric",
+    "output_item_id": "Desc_Fabric_C",
+    "output_amount": 1.0,
+    "duration_seconds": 4.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Mycelia_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_GenericBiomass_C",
+        "amount": 5.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_PolyesterFabric_C",
+    "name": "대체: 폴리에스테르 섬유",
+    "name_en": "Alternate: Polyester Fabric",
+    "output_item_id": "Desc_Fabric_C",
+    "output_amount": 1.0,
+    "duration_seconds": 2.0,
+    "building_id": "Build_OilRefinery_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_PolymerResin_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_Water_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_FicsiteIngot_Iron_C",
+    "name": "픽사이트 주괴 (철)",
+    "name_en": "Ficsite Ingot (Iron)",
+    "output_item_id": "Desc_FicsiteIngot_C",
+    "output_amount": 1.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_Converter_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_SAMIngot_C",
+        "amount": 4.0
+      },
+      {
+        "item_id": "Desc_IronIngot_C",
+        "amount": 24.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_FicsiteIngot_AL_C",
+    "name": "픽사이트 주괴 (알루미늄)",
+    "name_en": "Ficsite Ingot (Aluminum)",
+    "output_item_id": "Desc_FicsiteIngot_C",
+    "output_amount": 1.0,
+    "duration_seconds": 2.0,
+    "building_id": "Build_Converter_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_SAMIngot_C",
+        "amount": 2.0
+      },
+      {
+        "item_id": "Desc_AluminumIngot_C",
+        "amount": 4.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_FicsiteIngot_CAT_C",
+    "name": "픽사이트 주괴 (카테리움)",
+    "name_en": "Ficsite Ingot (Caterium)",
+    "output_item_id": "Desc_FicsiteIngot_C",
+    "output_amount": 1.0,
+    "duration_seconds": 4.0,
+    "building_id": "Build_Converter_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_SAMIngot_C",
+        "amount": 3.0
+      },
+      {
+        "item_id": "Desc_GoldIngot_C",
+        "amount": 4.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_FicsiteMesh_C",
+    "name": "픽사이트 삼각판",
+    "name_en": "Ficsite Trigon",
+    "output_item_id": "Desc_FicsiteMesh_C",
+    "output_amount": 3.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_ConstructorMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_FicsiteIngot_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_FicsoniumFuelRod_C",
+    "name": "픽소니움 연료봉",
+    "name_en": "Ficsonium Fuel Rod",
+    "output_item_id": "Desc_FicsoniumFuelRod_C",
+    "output_amount": 1.0,
+    "duration_seconds": 24.0,
+    "building_id": "Build_QuantumEncoder_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Ficsonium_C",
+        "amount": 2.0
+      },
+      {
+        "item_id": "Desc_ElectromagneticControlRod_C",
+        "amount": 2.0
+      },
+      {
+        "item_id": "Desc_FicsiteMesh_C",
+        "amount": 40.0
+      },
+      {
+        "item_id": "Desc_QuantumEnergy_C",
+        "amount": 20.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Ficsonium_C",
+    "name": "픽소니움",
+    "name_en": "Ficsonium",
+    "output_item_id": "Desc_Ficsonium_C",
+    "output_amount": 1.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_HadronCollider_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_PlutoniumWaste_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_SingularityCell_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_DarkEnergy_C",
+        "amount": 20.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_FilterGasMask_C",
+    "name": "가스 필터",
+    "name_en": "Gas Filter",
+    "output_item_id": "Desc_Filter_C",
+    "output_amount": 1.0,
+    "duration_seconds": 8.0,
+    "building_id": "Build_ManufacturerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Fabric_C",
+        "amount": 2.0
+      },
+      {
+        "item_id": "Desc_Coal_C",
+        "amount": 4.0
+      },
+      {
+        "item_id": "Desc_IronPlate_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Fireworks_01_C",
+    "name": "달콤한 폭죽",
+    "name_en": "Sweet Fireworks",
+    "output_item_id": "Desc_Fireworks_Projectile_01_C",
+    "output_amount": 1.0,
+    "duration_seconds": 24.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_XmasBranch_C",
+        "amount": 6.0
+      },
+      {
+        "item_id": "Desc_CandyCane_C",
+        "amount": 3.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Fireworks_02_C",
+    "name": "화려한 폭죽",
+    "name_en": "Fancy Fireworks",
+    "output_item_id": "Desc_Fireworks_Projectile_02_C",
+    "output_amount": 1.0,
+    "duration_seconds": 24.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_XmasBranch_C",
+        "amount": 4.0
+      },
+      {
+        "item_id": "Desc_XmasBow_C",
+        "amount": 3.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Fireworks_03_C",
+    "name": "반짝이는 폭죽",
+    "name_en": "Sparkly Fireworks",
+    "output_item_id": "Desc_Fireworks_Projectile_03_C",
+    "output_amount": 1.0,
+    "duration_seconds": 24.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_XmasBranch_C",
+        "amount": 3.0
+      },
+      {
+        "item_id": "Desc_Snow_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_FluidCanister_C",
+    "name": "빈 통",
+    "name_en": "Empty Canister",
+    "output_item_id": "Desc_FluidCanister_C",
+    "output_amount": 4.0,
+    "duration_seconds": 4.0,
+    "building_id": "Build_ConstructorMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Plastic_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_CoatedIronCanister_C",
+    "name": "대체: 코팅된 철통",
+    "name_en": "Alternate: Coated Iron Canister",
+    "output_item_id": "Desc_FluidCanister_C",
+    "output_amount": 4.0,
+    "duration_seconds": 4.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_IronPlate_C",
+        "amount": 2.0
+      },
+      {
+        "item_id": "Desc_CopperSheet_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Alternate_SteelCanister_C",
+    "name": "대체: 강철통",
+    "name_en": "Alternate: Steel Canister",
+    "output_item_id": "Desc_FluidCanister_C",
+    "output_amount": 4.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_ConstructorMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_SteelIngot_C",
+        "amount": 4.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Fuel_C",
+    "name": "포장된 연료",
+    "name_en": "Packaged Fuel",
+    "output_item_id": "Desc_Fuel_C",
+    "output_amount": 2.0,
+    "duration_seconds": 3.0,
+    "building_id": "Build_Packager_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_LiquidFuel_C",
+        "amount": 2.0
+      },
+      {
+        "item_id": "Desc_FluidCanister_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_DilutedPackagedFuel_C",
+    "name": "대체: 포장된 희석 연료",
+    "name_en": "Alternate: Diluted Packaged Fuel",
+    "output_item_id": "Desc_Fuel_C",
+    "output_amount": 2.0,
+    "duration_seconds": 2.0,
+    "building_id": "Build_OilRefinery_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_HeavyOilResidue_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_PackagedWater_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_GasTank_C",
+    "name": "빈 가스통",
+    "name_en": "Empty Fluid Tank",
+    "output_item_id": "Desc_GasTank_C",
+    "output_amount": 1.0,
+    "duration_seconds": 1.0,
+    "building_id": "Build_ConstructorMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_AluminumIngot_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Biomass_Leaves_C",
+    "name": "바이오매스(잎)",
+    "name_en": "Biomass (Leaves)",
+    "output_item_id": "Desc_GenericBiomass_C",
+    "output_amount": 5.0,
+    "duration_seconds": 5.0,
+    "building_id": "Build_ConstructorMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Leaves_C",
+        "amount": 10.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Biomass_AlienProtein_C",
+    "name": "바이오매스 (외계 단백질)",
+    "name_en": "Biomass (Alien Protein)",
+    "output_item_id": "Desc_GenericBiomass_C",
+    "output_amount": 100.0,
+    "duration_seconds": 4.0,
+    "building_id": "Build_ConstructorMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_AlienProtein_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Biomass_Mycelia_C",
+    "name": "바이오매스 (균사)",
+    "name_en": "Biomass (Mycelia)",
+    "output_item_id": "Desc_GenericBiomass_C",
+    "output_amount": 10.0,
+    "duration_seconds": 4.0,
+    "building_id": "Build_ConstructorMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Mycelia_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Biomass_Wood_C",
+    "name": "바이오매스(나무)",
+    "name_en": "Biomass (Wood)",
+    "output_item_id": "Desc_GenericBiomass_C",
+    "output_amount": 20.0,
+    "duration_seconds": 4.0,
+    "building_id": "Build_ConstructorMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Wood_C",
+        "amount": 4.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_IngotCaterium_C",
+    "name": "카테리움 주괴",
+    "name_en": "Caterium Ingot",
+    "output_item_id": "Desc_GoldIngot_C",
+    "output_amount": 1.0,
+    "duration_seconds": 4.0,
+    "building_id": "Build_SmelterMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_OreGold_C",
+        "amount": 3.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_CateriumIngot_Leached_C",
+    "name": "대체: 침출된 카테리움 주괴",
+    "name_en": "Alternate: Leached Caterium Ingot",
+    "output_item_id": "Desc_GoldIngot_C",
+    "output_amount": 6.0,
+    "duration_seconds": 10.0,
+    "building_id": "Build_OilRefinery_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_OreGold_C",
+        "amount": 9.0
+      },
+      {
+        "item_id": "Desc_SulfuricAcid_C",
+        "amount": 5.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Alternate_CateriumIngot_Tempered_C",
+    "name": "대체: 단련된 카테리움 주괴",
+    "name_en": "Alternate: Tempered Caterium Ingot",
+    "output_item_id": "Desc_GoldIngot_C",
+    "output_amount": 3.0,
+    "duration_seconds": 8.0,
+    "building_id": "Build_FoundryMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_OreGold_C",
+        "amount": 6.0
+      },
+      {
+        "item_id": "Desc_PetroleumCoke_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Alternate_PureCateriumIngot_C",
+    "name": "대체: 순수한 카테리움 주괴",
+    "name_en": "Alternate: Pure Caterium Ingot",
+    "output_item_id": "Desc_GoldIngot_C",
+    "output_amount": 1.0,
+    "duration_seconds": 5.0,
+    "building_id": "Build_OilRefinery_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_OreGold_C",
+        "amount": 2.0
+      },
+      {
+        "item_id": "Desc_Water_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_GunpowderMK2_C",
+    "name": "무연 화약",
+    "name_en": "Smokeless Powder",
+    "output_item_id": "Desc_GunpowderMK2_C",
+    "output_amount": 2.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_OilRefinery_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Gunpowder_C",
+        "amount": 2.0
+      },
+      {
+        "item_id": "Desc_HeavyOilResidue_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Gunpowder_C",
+    "name": "흑색 화약",
+    "name_en": "Black Powder",
+    "output_item_id": "Desc_Gunpowder_C",
+    "output_amount": 2.0,
+    "duration_seconds": 4.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Coal_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_Sulfur_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_Gunpowder_1_C",
+    "name": "대체: 고운 흑색 화약",
+    "name_en": "Alternate: Fine Black Powder",
+    "output_item_id": "Desc_Gunpowder_C",
+    "output_amount": 6.0,
+    "duration_seconds": 8.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Sulfur_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_CompactedCoal_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_FilterHazmat_C",
+    "name": "아이오딘이 주입된 필터",
+    "name_en": "Iodine-Infused Filter",
+    "output_item_id": "Desc_HazmatFilter_C",
+    "output_amount": 1.0,
+    "duration_seconds": 16.0,
+    "building_id": "Build_ManufacturerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Filter_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_HighSpeedWire_C",
+        "amount": 8.0
+      },
+      {
+        "item_id": "Desc_AluminumCasing_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_HeavyOilResidue_C",
+    "name": "대체: 중유 잔여물",
+    "name_en": "Alternate: Heavy Oil Residue",
+    "output_item_id": "Desc_HeavyOilResidue_C",
+    "output_amount": 4.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_OilRefinery_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_LiquidOil_C",
+        "amount": 3.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_UnpackageOilResidue_C",
+    "name": "중유 잔여물 비우기",
+    "name_en": "Unpackage Heavy Oil Residue",
+    "output_item_id": "Desc_HeavyOilResidue_C",
+    "output_amount": 2.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_Packager_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_PackagedOilResidue_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_HighSpeedConnector_C",
+    "name": "고속 커넥터",
+    "name_en": "High-Speed Connector",
+    "output_item_id": "Desc_HighSpeedConnector_C",
+    "output_amount": 1.0,
+    "duration_seconds": 16.0,
+    "building_id": "Build_ManufacturerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_HighSpeedWire_C",
+        "amount": 56.0
+      },
+      {
+        "item_id": "Desc_Cable_C",
+        "amount": 10.0
+      },
+      {
+        "item_id": "Desc_CircuitBoard_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_HighSpeedConnector_C",
+    "name": "대체: 실리콘 고속 커넥터",
+    "name_en": "Alternate: Silicon High-Speed Connector",
+    "output_item_id": "Desc_HighSpeedConnector_C",
+    "output_amount": 2.0,
+    "duration_seconds": 40.0,
+    "building_id": "Build_ManufacturerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_HighSpeedWire_C",
+        "amount": 60.0
+      },
+      {
+        "item_id": "Desc_Silica_C",
+        "amount": 25.0
+      },
+      {
+        "item_id": "Desc_CircuitBoard_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Quickwire_C",
+    "name": "고속 전선",
+    "name_en": "Quickwire",
+    "output_item_id": "Desc_HighSpeedWire_C",
+    "output_amount": 5.0,
+    "duration_seconds": 5.0,
+    "building_id": "Build_ConstructorMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_GoldIngot_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_Quickwire_C",
+    "name": "대체: 융합된 고속 전선",
+    "name_en": "Alternate: Fused Quickwire",
+    "output_item_id": "Desc_HighSpeedWire_C",
+    "output_amount": 12.0,
+    "duration_seconds": 8.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_GoldIngot_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_CopperIngot_C",
+        "amount": 5.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_IonizedFuel_C",
+    "name": "이온화 연료",
+    "name_en": "Ionized Fuel",
+    "output_item_id": "Desc_IonizedFuel_C",
+    "output_amount": 16.0,
+    "duration_seconds": 24.0,
+    "building_id": "Build_OilRefinery_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_RocketFuel_C",
+        "amount": 16.0
+      },
+      {
+        "item_id": "Desc_CrystalShard_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_IonizedFuel_Dark_C",
+    "name": "대체: 암흑 이온 연료",
+    "name_en": "Alternate: Dark-Ion Fuel",
+    "output_item_id": "Desc_IonizedFuel_C",
+    "output_amount": 10.0,
+    "duration_seconds": 3.0,
+    "building_id": "Build_Converter_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_PackagedRocketFuel_C",
+        "amount": 12.0
+      },
+      {
+        "item_id": "Desc_DarkMatter_C",
+        "amount": 4.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_UnpackageIonizedFuel_C",
+    "name": "이온화 연료 비우기",
+    "name_en": "Unpackage Ionized Fuel",
+    "output_item_id": "Desc_IonizedFuel_C",
+    "output_amount": 4.0,
+    "duration_seconds": 3.0,
+    "building_id": "Build_Packager_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_PackagedIonizedFuel_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_IngotIron_C",
+    "name": "철 주괴",
+    "name_en": "Iron Ingot",
+    "output_item_id": "Desc_IronIngot_C",
+    "output_amount": 1.0,
+    "duration_seconds": 2.0,
+    "building_id": "Build_SmelterMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_OreIron_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_IngotIron_C",
+    "name": "대체: 철합금 주괴",
+    "name_en": "Alternate: Iron Alloy Ingot",
+    "output_item_id": "Desc_IronIngot_C",
+    "output_amount": 15.0,
+    "duration_seconds": 12.0,
+    "building_id": "Build_FoundryMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_OreIron_C",
+        "amount": 8.0
+      },
+      {
+        "item_id": "Desc_OreCopper_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Alternate_IronIngot_Basic_C",
+    "name": "대체: 기초 철 주괴",
+    "name_en": "Alternate: Basic Iron Ingot",
+    "output_item_id": "Desc_IronIngot_C",
+    "output_amount": 10.0,
+    "duration_seconds": 12.0,
+    "building_id": "Build_FoundryMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_OreIron_C",
+        "amount": 5.0
+      },
+      {
+        "item_id": "Desc_Stone_C",
+        "amount": 8.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Alternate_IronIngot_Leached_C",
+    "name": "대체: 침출된 철 주괴",
+    "name_en": "Alternate: Leached Iron Ingot",
+    "output_item_id": "Desc_IronIngot_C",
+    "output_amount": 10.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_OilRefinery_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_OreIron_C",
+        "amount": 5.0
+      },
+      {
+        "item_id": "Desc_SulfuricAcid_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Alternate_PureIronIngot_C",
+    "name": "대체: 순수한 철 주괴",
+    "name_en": "Alternate: Pure Iron Ingot",
+    "output_item_id": "Desc_IronIngot_C",
+    "output_amount": 13.0,
+    "duration_seconds": 12.0,
+    "building_id": "Build_OilRefinery_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_OreIron_C",
+        "amount": 7.0
+      },
+      {
+        "item_id": "Desc_Water_C",
+        "amount": 4.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_IronPlateReinforced_C",
+    "name": "보강된 철판",
+    "name_en": "Reinforced Iron Plate",
+    "output_item_id": "Desc_IronPlateReinforced_C",
+    "output_amount": 1.0,
+    "duration_seconds": 12.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_IronPlate_C",
+        "amount": 6.0
+      },
+      {
+        "item_id": "Desc_IronScrew_C",
+        "amount": 12.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_AdheredIronPlate_C",
+    "name": "대체: 접착된 철판",
+    "name_en": "Alternate: Adhered Iron Plate",
+    "output_item_id": "Desc_IronPlateReinforced_C",
+    "output_amount": 1.0,
+    "duration_seconds": 16.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_IronPlate_C",
+        "amount": 3.0
+      },
+      {
+        "item_id": "Desc_Rubber_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Alternate_ReinforcedIronPlate_1_C",
+    "name": "대체: 결합된 철판",
+    "name_en": "Alternate: Bolted Iron Plate",
+    "output_item_id": "Desc_IronPlateReinforced_C",
+    "output_amount": 3.0,
+    "duration_seconds": 12.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_IronPlate_C",
+        "amount": 18.0
+      },
+      {
+        "item_id": "Desc_IronScrew_C",
+        "amount": 50.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Alternate_ReinforcedIronPlate_2_C",
+    "name": "대체: 용접된 철판",
+    "name_en": "Alternate: Stitched Iron Plate",
+    "output_item_id": "Desc_IronPlateReinforced_C",
+    "output_amount": 3.0,
+    "duration_seconds": 32.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_IronPlate_C",
+        "amount": 10.0
+      },
+      {
+        "item_id": "Desc_Wire_C",
+        "amount": 20.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_IronPlate_C",
+    "name": "철판",
+    "name_en": "Iron Plate",
+    "output_item_id": "Desc_IronPlate_C",
+    "output_amount": 2.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_ConstructorMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_IronIngot_C",
+        "amount": 3.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_CoatedIronPlate_C",
+    "name": "대체: 코팅된 철판",
+    "name_en": "Alternate: Coated Iron Plate",
+    "output_item_id": "Desc_IronPlate_C",
+    "output_amount": 10.0,
+    "duration_seconds": 8.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_IronIngot_C",
+        "amount": 5.0
+      },
+      {
+        "item_id": "Desc_Plastic_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Alternate_SteelCastedPlate_C",
+    "name": "대체: 주강 철판",
+    "name_en": "Alternate: Steel Cast Plate",
+    "output_item_id": "Desc_IronPlate_C",
+    "output_amount": 3.0,
+    "duration_seconds": 4.0,
+    "building_id": "Build_FoundryMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_IronIngot_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_SteelIngot_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_IronRod_C",
+    "name": "철봉",
+    "name_en": "Iron Rod",
+    "output_item_id": "Desc_IronRod_C",
+    "output_amount": 1.0,
+    "duration_seconds": 4.0,
+    "building_id": "Build_ConstructorMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_IronIngot_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_AluminumRod_C",
+    "name": "대체: 알루미늄 봉",
+    "name_en": "Alternate: Aluminum Rod",
+    "output_item_id": "Desc_IronRod_C",
+    "output_amount": 7.0,
+    "duration_seconds": 8.0,
+    "building_id": "Build_ConstructorMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_AluminumIngot_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Alternate_SteelRod_C",
+    "name": "대체: 강철봉",
+    "name_en": "Alternate: Steel Rod",
+    "output_item_id": "Desc_IronRod_C",
+    "output_amount": 4.0,
+    "duration_seconds": 5.0,
+    "building_id": "Build_ConstructorMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_SteelIngot_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Screw_C",
+    "name": "나사",
+    "name_en": "Screws",
+    "output_item_id": "Desc_IronScrew_C",
+    "output_amount": 4.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_ConstructorMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_IronRod_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_Screw_2_C",
+    "name": "대체: 강철 나사",
+    "name_en": "Alternate: Steel Screws",
+    "output_item_id": "Desc_IronScrew_C",
+    "output_amount": 52.0,
+    "duration_seconds": 12.0,
+    "building_id": "Build_ConstructorMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_SteelPlate_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Alternate_Screw_C",
+    "name": "대체: 주조된 나사",
+    "name_en": "Alternate: Cast Screws",
+    "output_item_id": "Desc_IronScrew_C",
+    "output_amount": 20.0,
+    "duration_seconds": 24.0,
+    "building_id": "Build_ConstructorMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_IronIngot_C",
+        "amount": 5.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_LiquidBiofuel_C",
+    "name": "액체 바이오 연료",
+    "name_en": "Liquid Biofuel",
+    "output_item_id": "Desc_LiquidBiofuel_C",
+    "output_amount": 4.0,
+    "duration_seconds": 4.0,
+    "building_id": "Build_OilRefinery_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Biofuel_C",
+        "amount": 6.0
+      },
+      {
+        "item_id": "Desc_Water_C",
+        "amount": 3.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_UnpackageBioFuel_C",
+    "name": "액체 바이오 연료 비우기",
+    "name_en": "Unpackage Liquid Biofuel",
+    "output_item_id": "Desc_LiquidBiofuel_C",
+    "output_amount": 2.0,
+    "duration_seconds": 2.0,
+    "building_id": "Build_Packager_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_PackagedBiofuel_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_LiquidFuel_C",
+    "name": "연료",
+    "name_en": "Fuel",
+    "output_item_id": "Desc_LiquidFuel_C",
+    "output_amount": 4.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_OilRefinery_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_LiquidOil_C",
+        "amount": 6.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_DilutedFuel_C",
+    "name": "대체: 희석 연료",
+    "name_en": "Alternate: Diluted Fuel",
+    "output_item_id": "Desc_LiquidFuel_C",
+    "output_amount": 10.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_Blender_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_HeavyOilResidue_C",
+        "amount": 5.0
+      },
+      {
+        "item_id": "Desc_Water_C",
+        "amount": 10.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_ResidualFuel_C",
+    "name": "연료 잔여물",
+    "name_en": "Residual Fuel",
+    "output_item_id": "Desc_LiquidFuel_C",
+    "output_amount": 4.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_OilRefinery_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_HeavyOilResidue_C",
+        "amount": 6.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_UnpackageFuel_C",
+    "name": "연료 비우기",
+    "name_en": "Unpackage Fuel",
+    "output_item_id": "Desc_LiquidFuel_C",
+    "output_amount": 2.0,
+    "duration_seconds": 2.0,
+    "building_id": "Build_Packager_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Fuel_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_UnpackageOil_C",
+    "name": "원유 비우기",
+    "name_en": "Unpackage Oil",
+    "output_item_id": "Desc_LiquidOil_C",
+    "output_amount": 2.0,
+    "duration_seconds": 2.0,
+    "building_id": "Build_Packager_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_PackagedOil_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_Turbofuel_C",
+    "name": "터보 연료",
+    "name_en": "Turbofuel",
+    "output_item_id": "Desc_LiquidTurboFuel_C",
+    "output_amount": 5.0,
+    "duration_seconds": 16.0,
+    "building_id": "Build_OilRefinery_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_LiquidFuel_C",
+        "amount": 6.0
+      },
+      {
+        "item_id": "Desc_CompactedCoal_C",
+        "amount": 4.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Alternate_TurboBlendFuel_C",
+    "name": "대체: 터보 혼합 연료",
+    "name_en": "Alternate: Turbo Blend Fuel",
+    "output_item_id": "Desc_LiquidTurboFuel_C",
+    "output_amount": 6.0,
+    "duration_seconds": 8.0,
+    "building_id": "Build_Blender_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_LiquidFuel_C",
+        "amount": 2.0
+      },
+      {
+        "item_id": "Desc_HeavyOilResidue_C",
+        "amount": 4.0
+      },
+      {
+        "item_id": "Desc_Sulfur_C",
+        "amount": 3.0
+      },
+      {
+        "item_id": "Desc_PetroleumCoke_C",
+        "amount": 3.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Alternate_TurboHeavyFuel_C",
+    "name": "대체: 터보 중유 연료",
+    "name_en": "Alternate: Turbo Heavy Fuel",
+    "output_item_id": "Desc_LiquidTurboFuel_C",
+    "output_amount": 4.0,
+    "duration_seconds": 8.0,
+    "building_id": "Build_OilRefinery_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_HeavyOilResidue_C",
+        "amount": 5.0
+      },
+      {
+        "item_id": "Desc_CompactedCoal_C",
+        "amount": 4.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_UnpackageTurboFuel_C",
+    "name": "터보 연료 비우기",
+    "name_en": "Unpackage Turbofuel",
+    "output_item_id": "Desc_LiquidTurboFuel_C",
+    "output_amount": 2.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_Packager_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_TurboFuel_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_FusedModularFrame_C",
+    "name": "융합된 모듈식 골조",
+    "name_en": "Fused Modular Frame",
+    "output_item_id": "Desc_ModularFrameFused_C",
+    "output_amount": 1.0,
+    "duration_seconds": 40.0,
+    "building_id": "Build_Blender_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_ModularFrameHeavy_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_AluminumCasing_C",
+        "amount": 50.0
+      },
+      {
+        "item_id": "Desc_NitrogenGas_C",
+        "amount": 25.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_HeatFusedFrame_C",
+    "name": "대체: 열 융합 골조",
+    "name_en": "Alternate: Heat-Fused Frame",
+    "output_item_id": "Desc_ModularFrameFused_C",
+    "output_amount": 1.0,
+    "duration_seconds": 20.0,
+    "building_id": "Build_Blender_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_ModularFrameHeavy_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_AluminumIngot_C",
+        "amount": 50.0
+      },
+      {
+        "item_id": "Desc_NitricAcid_C",
+        "amount": 8.0
+      },
+      {
+        "item_id": "Desc_LiquidFuel_C",
+        "amount": 10.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_ModularFrameHeavy_C",
+    "name": "고중량 모듈식 골조",
+    "name_en": "Heavy Modular Frame",
+    "output_item_id": "Desc_ModularFrameHeavy_C",
+    "output_amount": 1.0,
+    "duration_seconds": 30.0,
+    "building_id": "Build_ManufacturerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_ModularFrame_C",
+        "amount": 5.0
+      },
+      {
+        "item_id": "Desc_SteelPipe_C",
+        "amount": 20.0
+      },
+      {
+        "item_id": "Desc_SteelPlateReinforced_C",
+        "amount": 5.0
+      },
+      {
+        "item_id": "Desc_IronScrew_C",
+        "amount": 120.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_HeavyFlexibleFrame_C",
+    "name": "대체: 고중량 신축성 골조",
+    "name_en": "Alternate: Heavy Flexible Frame",
+    "output_item_id": "Desc_ModularFrameHeavy_C",
+    "output_amount": 1.0,
+    "duration_seconds": 16.0,
+    "building_id": "Build_ManufacturerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_ModularFrame_C",
+        "amount": 5.0
+      },
+      {
+        "item_id": "Desc_SteelPlateReinforced_C",
+        "amount": 3.0
+      },
+      {
+        "item_id": "Desc_Rubber_C",
+        "amount": 20.0
+      },
+      {
+        "item_id": "Desc_IronScrew_C",
+        "amount": 104.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Alternate_ModularFrameHeavy_C",
+    "name": "대체: 포장된 고중량 골조",
+    "name_en": "Alternate: Heavy Encased Frame",
+    "output_item_id": "Desc_ModularFrameHeavy_C",
+    "output_amount": 3.0,
+    "duration_seconds": 64.0,
+    "building_id": "Build_ManufacturerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_ModularFrame_C",
+        "amount": 8.0
+      },
+      {
+        "item_id": "Desc_SteelPlateReinforced_C",
+        "amount": 10.0
+      },
+      {
+        "item_id": "Desc_SteelPipe_C",
+        "amount": 36.0
+      },
+      {
+        "item_id": "Desc_Cement_C",
+        "amount": 22.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_RadioControlUnit_C",
+    "name": "무선 제어 장치",
+    "name_en": "Radio Control Unit",
+    "output_item_id": "Desc_ModularFrameLightweight_C",
+    "output_amount": 2.0,
+    "duration_seconds": 48.0,
+    "building_id": "Build_ManufacturerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_AluminumCasing_C",
+        "amount": 32.0
+      },
+      {
+        "item_id": "Desc_CrystalOscillator_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_Computer_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_RadioControlSystem_C",
+    "name": "대체: 무선 제어 시스템",
+    "name_en": "Alternate: Radio Control System",
+    "output_item_id": "Desc_ModularFrameLightweight_C",
+    "output_amount": 3.0,
+    "duration_seconds": 40.0,
+    "building_id": "Build_ManufacturerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_CrystalOscillator_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_CircuitBoard_C",
+        "amount": 10.0
+      },
+      {
+        "item_id": "Desc_AluminumCasing_C",
+        "amount": 60.0
+      },
+      {
+        "item_id": "Desc_Rubber_C",
+        "amount": 30.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Alternate_RadioControlUnit_1_C",
+    "name": "대체: 무선 연결 장치",
+    "name_en": "Alternate: Radio Connection Unit",
+    "output_item_id": "Desc_ModularFrameLightweight_C",
+    "output_amount": 1.0,
+    "duration_seconds": 16.0,
+    "building_id": "Build_ManufacturerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_AluminumPlateReinforced_C",
+        "amount": 4.0
+      },
+      {
+        "item_id": "Desc_HighSpeedConnector_C",
+        "amount": 2.0
+      },
+      {
+        "item_id": "Desc_QuartzCrystal_C",
+        "amount": 12.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_ModularFrame_C",
+    "name": "모듈식 골조",
+    "name_en": "Modular Frame",
+    "output_item_id": "Desc_ModularFrame_C",
+    "output_amount": 2.0,
+    "duration_seconds": 60.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_IronPlateReinforced_C",
+        "amount": 3.0
+      },
+      {
+        "item_id": "Desc_IronRod_C",
+        "amount": 12.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_BoltedFrame_C",
+    "name": "대체: 볼트 골조",
+    "name_en": "Alternate: Bolted Frame",
+    "output_item_id": "Desc_ModularFrame_C",
+    "output_amount": 2.0,
+    "duration_seconds": 24.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_IronPlateReinforced_C",
+        "amount": 3.0
+      },
+      {
+        "item_id": "Desc_IronScrew_C",
+        "amount": 56.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Alternate_ModularFrame_C",
+    "name": "대체: 강철 골조",
+    "name_en": "Alternate: Steeled Frame",
+    "output_item_id": "Desc_ModularFrame_C",
+    "output_amount": 3.0,
+    "duration_seconds": 60.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_IronPlateReinforced_C",
+        "amount": 2.0
+      },
+      {
+        "item_id": "Desc_SteelPipe_C",
+        "amount": 10.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_MotorTurbo_C",
+    "name": "터보 모터",
+    "name_en": "Turbo Motor",
+    "output_item_id": "Desc_MotorLightweight_C",
+    "output_amount": 1.0,
+    "duration_seconds": 32.0,
+    "building_id": "Build_ManufacturerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_CoolingSystem_C",
+        "amount": 4.0
+      },
+      {
+        "item_id": "Desc_ModularFrameLightweight_C",
+        "amount": 2.0
+      },
+      {
+        "item_id": "Desc_Motor_C",
+        "amount": 4.0
+      },
+      {
+        "item_id": "Desc_Rubber_C",
+        "amount": 24.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_TurboMotor_1_C",
+    "name": "대체: 전기 터보 모터",
+    "name_en": "Alternate: Turbo Electric Motor",
+    "output_item_id": "Desc_MotorLightweight_C",
+    "output_amount": 3.0,
+    "duration_seconds": 64.0,
+    "building_id": "Build_ManufacturerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Motor_C",
+        "amount": 7.0
+      },
+      {
+        "item_id": "Desc_ModularFrameLightweight_C",
+        "amount": 9.0
+      },
+      {
+        "item_id": "Desc_ElectromagneticControlRod_C",
+        "amount": 5.0
+      },
+      {
+        "item_id": "Desc_Rotor_C",
+        "amount": 7.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Alternate_TurboPressureMotor_C",
+    "name": "대체: 압력 터보 모터",
+    "name_en": "Alternate: Turbo Pressure Motor",
+    "output_item_id": "Desc_MotorLightweight_C",
+    "output_amount": 2.0,
+    "duration_seconds": 32.0,
+    "building_id": "Build_ManufacturerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Motor_C",
+        "amount": 4.0
+      },
+      {
+        "item_id": "Desc_PressureConversionCube_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_PackagedNitrogenGas_C",
+        "amount": 24.0
+      },
+      {
+        "item_id": "Desc_Stator_C",
+        "amount": 8.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Motor_C",
+    "name": "모터",
+    "name_en": "Motor",
+    "output_item_id": "Desc_Motor_C",
+    "output_amount": 1.0,
+    "duration_seconds": 12.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Rotor_C",
+        "amount": 2.0
+      },
+      {
+        "item_id": "Desc_Stator_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_ElectricMotor_C",
+    "name": "대체: 전기 모터",
+    "name_en": "Alternate: Electric Motor",
+    "output_item_id": "Desc_Motor_C",
+    "output_amount": 2.0,
+    "duration_seconds": 16.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_ElectromagneticControlRod_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_Rotor_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Alternate_Motor_1_C",
+    "name": "대체: 고정밀 모터",
+    "name_en": "Alternate: Rigor Motor",
+    "output_item_id": "Desc_Motor_C",
+    "output_amount": 6.0,
+    "duration_seconds": 48.0,
+    "building_id": "Build_ManufacturerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Rotor_C",
+        "amount": 3.0
+      },
+      {
+        "item_id": "Desc_Stator_C",
+        "amount": 3.0
+      },
+      {
+        "item_id": "Desc_CrystalOscillator_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_NitricAcid_C",
+    "name": "질산",
+    "name_en": "Nitric Acid",
+    "output_item_id": "Desc_NitricAcid_C",
+    "output_amount": 3.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_Blender_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_NitrogenGas_C",
+        "amount": 12.0
+      },
+      {
+        "item_id": "Desc_Water_C",
+        "amount": 3.0
+      },
+      {
+        "item_id": "Desc_IronPlate_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_UnpackageNitricAcid_C",
+    "name": "질산 비우기",
+    "name_en": "Unpackage Nitric Acid",
+    "output_item_id": "Desc_NitricAcid_C",
+    "output_amount": 1.0,
+    "duration_seconds": 3.0,
+    "building_id": "Build_Packager_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_PackagedNitricAcid_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Nitrogen_Caterium_C",
+    "name": "질소 가스 (카테리움)",
+    "name_en": "Nitrogen Gas (Caterium)",
+    "output_item_id": "Desc_NitrogenGas_C",
+    "output_amount": 12.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_Converter_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_SAMIngot_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_OreGold_C",
+        "amount": 12.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Nitrogen_Bauxite_C",
+    "name": "질소 가스 (보크사이트)",
+    "name_en": "Nitrogen Gas (Bauxite)",
+    "output_item_id": "Desc_NitrogenGas_C",
+    "output_amount": 12.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_Converter_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_SAMIngot_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_OreBauxite_C",
+        "amount": 10.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_UnpackageNitrogen_C",
+    "name": "질소 가스 비우기",
+    "name_en": "Unpackage Nitrogen Gas",
+    "output_item_id": "Desc_NitrogenGas_C",
+    "output_amount": 4.0,
+    "duration_seconds": 1.0,
+    "building_id": "Build_Packager_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_PackagedNitrogenGas_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_NobeliskCluster_C",
+    "name": "집속 노벨리스크",
+    "name_en": "Cluster Nobelisk",
+    "output_item_id": "Desc_NobeliskCluster_C",
+    "output_amount": 1.0,
+    "duration_seconds": 24.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_NobeliskExplosive_C",
+        "amount": 3.0
+      },
+      {
+        "item_id": "Desc_GunpowderMK2_C",
+        "amount": 4.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Nobelisk_C",
+    "name": "노벨리스크",
+    "name_en": "Nobelisk",
+    "output_item_id": "Desc_NobeliskExplosive_C",
+    "output_amount": 1.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Gunpowder_C",
+        "amount": 2.0
+      },
+      {
+        "item_id": "Desc_SteelPipe_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_NobeliskGas_C",
+    "name": "가스 노벨리스크",
+    "name_en": "Gas Nobelisk",
+    "output_item_id": "Desc_NobeliskGas_C",
+    "output_amount": 1.0,
+    "duration_seconds": 12.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_NobeliskExplosive_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_GenericBiomass_C",
+        "amount": 10.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_NobeliskNuke_C",
+    "name": "핵 노벨리스크",
+    "name_en": "Nuke Nobelisk",
+    "output_item_id": "Desc_NobeliskNuke_C",
+    "output_amount": 1.0,
+    "duration_seconds": 120.0,
+    "building_id": "Build_ManufacturerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_NobeliskExplosive_C",
+        "amount": 5.0
+      },
+      {
+        "item_id": "Desc_UraniumCell_C",
+        "amount": 20.0
+      },
+      {
+        "item_id": "Desc_GunpowderMK2_C",
+        "amount": 10.0
+      },
+      {
+        "item_id": "Desc_CircuitBoardHighSpeed_C",
+        "amount": 6.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_NobeliskShockwave_C",
+    "name": "펄스 노벨리스크",
+    "name_en": "Pulse Nobelisk",
+    "output_item_id": "Desc_NobeliskShockwave_C",
+    "output_amount": 5.0,
+    "duration_seconds": 60.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_NobeliskExplosive_C",
+        "amount": 5.0
+      },
+      {
+        "item_id": "Desc_CrystalOscillator_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_NonFissileUranium_C",
+    "name": "비분열성 우라늄",
+    "name_en": "Non-Fissile Uranium",
+    "output_item_id": "Desc_NonFissibleUranium_C",
+    "output_amount": 20.0,
+    "duration_seconds": 24.0,
+    "building_id": "Build_Blender_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_NuclearWaste_C",
+        "amount": 15.0
+      },
+      {
+        "item_id": "Desc_Silica_C",
+        "amount": 10.0
+      },
+      {
+        "item_id": "Desc_NitricAcid_C",
+        "amount": 6.0
+      },
+      {
+        "item_id": "Desc_SulfuricAcid_C",
+        "amount": 6.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_FertileUranium_C",
+    "name": "대체: 핵원료 우라늄",
+    "name_en": "Alternate: Fertile Uranium",
+    "output_item_id": "Desc_NonFissibleUranium_C",
+    "output_amount": 20.0,
+    "duration_seconds": 12.0,
+    "building_id": "Build_Blender_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_OreUranium_C",
+        "amount": 5.0
+      },
+      {
+        "item_id": "Desc_NuclearWaste_C",
+        "amount": 5.0
+      },
+      {
+        "item_id": "Desc_NitricAcid_C",
+        "amount": 3.0
+      },
+      {
+        "item_id": "Desc_SulfuricAcid_C",
+        "amount": 5.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_NuclearFuelRod_C",
+    "name": "우라늄 연료봉",
+    "name_en": "Uranium Fuel Rod",
+    "output_item_id": "Desc_NuclearFuelRod_C",
+    "output_amount": 1.0,
+    "duration_seconds": 150.0,
+    "building_id": "Build_ManufacturerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_UraniumCell_C",
+        "amount": 50.0
+      },
+      {
+        "item_id": "Desc_SteelPlateReinforced_C",
+        "amount": 3.0
+      },
+      {
+        "item_id": "Desc_ElectromagneticControlRod_C",
+        "amount": 5.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_NuclearFuelRod_1_C",
+    "name": "대체: 우라늄 연료 장치",
+    "name_en": "Alternate: Uranium Fuel Unit",
+    "output_item_id": "Desc_NuclearFuelRod_C",
+    "output_amount": 3.0,
+    "duration_seconds": 300.0,
+    "building_id": "Build_ManufacturerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_UraniumCell_C",
+        "amount": 100.0
+      },
+      {
+        "item_id": "Desc_ElectromagneticControlRod_C",
+        "amount": 10.0
+      },
+      {
+        "item_id": "Desc_CrystalOscillator_C",
+        "amount": 3.0
+      },
+      {
+        "item_id": "Desc_Rotor_C",
+        "amount": 10.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Bauxite_Copper_C",
+    "name": "보크사이트 (구리)",
+    "name_en": "Bauxite (Copper)",
+    "output_item_id": "Desc_OreBauxite_C",
+    "output_amount": 12.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_Converter_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_SAMIngot_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_OreCopper_C",
+        "amount": 18.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Bauxite_Caterium_C",
+    "name": "보크사이트 (카테리움)",
+    "name_en": "Bauxite (Caterium)",
+    "output_item_id": "Desc_OreBauxite_C",
+    "output_amount": 12.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_Converter_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_SAMIngot_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_OreGold_C",
+        "amount": 15.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Copper_Sulfur_C",
+    "name": "구리 광석 (황)",
+    "name_en": "Copper Ore (Sulfur)",
+    "output_item_id": "Desc_OreCopper_C",
+    "output_amount": 12.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_Converter_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_SAMIngot_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_Sulfur_C",
+        "amount": 12.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Copper_Quartz_C",
+    "name": "구리 광석 (석영)",
+    "name_en": "Copper Ore (Quartz)",
+    "output_item_id": "Desc_OreCopper_C",
+    "output_amount": 12.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_Converter_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_SAMIngot_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_RawQuartz_C",
+        "amount": 10.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Caterium_Copper_C",
+    "name": "카테리움 광석 (구리)",
+    "name_en": "Caterium Ore (Copper)",
+    "output_item_id": "Desc_OreGold_C",
+    "output_amount": 12.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_Converter_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_SAMIngot_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_OreCopper_C",
+        "amount": 15.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Caterium_Quartz_C",
+    "name": "카테리움 광석 (석영)",
+    "name_en": "Caterium Ore (Quartz)",
+    "output_item_id": "Desc_OreGold_C",
+    "output_amount": 12.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_Converter_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_SAMIngot_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_RawQuartz_C",
+        "amount": 12.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Iron_Limestone_C",
+    "name": "철 광석 (석회석)",
+    "name_en": "Iron Ore (Limestone)",
+    "output_item_id": "Desc_OreIron_C",
+    "output_amount": 12.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_Converter_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_SAMIngot_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_Stone_C",
+        "amount": 24.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Uranium_Bauxite_C",
+    "name": "우라늄 광석 (보크사이트)",
+    "name_en": "Uranium Ore (Bauxite)",
+    "output_item_id": "Desc_OreUranium_C",
+    "output_amount": 12.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_Converter_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_SAMIngot_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_OreBauxite_C",
+        "amount": 48.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_PackagedAlumina_C",
+    "name": "포장된 알루미나 용액",
+    "name_en": "Packaged Alumina Solution",
+    "output_item_id": "Desc_PackagedAlumina_C",
+    "output_amount": 2.0,
+    "duration_seconds": 1.0,
+    "building_id": "Build_Packager_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_AluminaSolution_C",
+        "amount": 2.0
+      },
+      {
+        "item_id": "Desc_FluidCanister_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_PackagedBiofuel_C",
+    "name": "포장된 액체 바이오 연료",
+    "name_en": "Packaged Liquid Biofuel",
+    "output_item_id": "Desc_PackagedBiofuel_C",
+    "output_amount": 2.0,
+    "duration_seconds": 3.0,
+    "building_id": "Build_Packager_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_LiquidBiofuel_C",
+        "amount": 2.0
+      },
+      {
+        "item_id": "Desc_FluidCanister_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_PackagedIonizedFuel_C",
+    "name": "포장된 이온화 연료",
+    "name_en": "Packaged Ionized Fuel",
+    "output_item_id": "Desc_PackagedIonizedFuel_C",
+    "output_amount": 2.0,
+    "duration_seconds": 3.0,
+    "building_id": "Build_Packager_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_IonizedFuel_C",
+        "amount": 4.0
+      },
+      {
+        "item_id": "Desc_GasTank_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_PackagedNitricAcid_C",
+    "name": "포장된 질산",
+    "name_en": "Packaged Nitric Acid",
+    "output_item_id": "Desc_PackagedNitricAcid_C",
+    "output_amount": 1.0,
+    "duration_seconds": 2.0,
+    "building_id": "Build_Packager_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_NitricAcid_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_GasTank_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_PackagedNitrogen_C",
+    "name": "포장된 질소 가스",
+    "name_en": "Packaged Nitrogen Gas",
+    "output_item_id": "Desc_PackagedNitrogenGas_C",
+    "output_amount": 1.0,
+    "duration_seconds": 1.0,
+    "building_id": "Build_Packager_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_NitrogenGas_C",
+        "amount": 4.0
+      },
+      {
+        "item_id": "Desc_GasTank_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_PackagedOilResidue_C",
+    "name": "포장된 중유 잔여물",
+    "name_en": "Packaged Heavy Oil Residue",
+    "output_item_id": "Desc_PackagedOilResidue_C",
+    "output_amount": 2.0,
+    "duration_seconds": 4.0,
+    "building_id": "Build_Packager_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_HeavyOilResidue_C",
+        "amount": 2.0
+      },
+      {
+        "item_id": "Desc_FluidCanister_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_PackagedCrudeOil_C",
+    "name": "포장된 원유",
+    "name_en": "Packaged Oil",
+    "output_item_id": "Desc_PackagedOil_C",
+    "output_amount": 2.0,
+    "duration_seconds": 4.0,
+    "building_id": "Build_Packager_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_LiquidOil_C",
+        "amount": 2.0
+      },
+      {
+        "item_id": "Desc_FluidCanister_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_PackagedRocketFuel_C",
+    "name": "포장된 로켓 연료",
+    "name_en": "Packaged Rocket Fuel",
+    "output_item_id": "Desc_PackagedRocketFuel_C",
+    "output_amount": 1.0,
+    "duration_seconds": 1.0,
+    "building_id": "Build_Packager_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_RocketFuel_C",
+        "amount": 2.0
+      },
+      {
+        "item_id": "Desc_GasTank_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_PackagedSulfuricAcid_C",
+    "name": "포장된 황산",
+    "name_en": "Packaged Sulfuric Acid",
+    "output_item_id": "Desc_PackagedSulfuricAcid_C",
+    "output_amount": 2.0,
+    "duration_seconds": 3.0,
+    "building_id": "Build_Packager_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_SulfuricAcid_C",
+        "amount": 2.0
+      },
+      {
+        "item_id": "Desc_FluidCanister_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_PackagedWater_C",
+    "name": "포장된 물",
+    "name_en": "Packaged Water",
+    "output_item_id": "Desc_PackagedWater_C",
+    "output_amount": 2.0,
+    "duration_seconds": 2.0,
+    "building_id": "Build_Packager_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Water_C",
+        "amount": 2.0
+      },
+      {
+        "item_id": "Desc_FluidCanister_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_PetroleumCoke_C",
+    "name": "석유 코크스",
+    "name_en": "Petroleum Coke",
+    "output_item_id": "Desc_PetroleumCoke_C",
+    "output_amount": 12.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_OilRefinery_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_HeavyOilResidue_C",
+        "amount": 4.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Plastic_C",
+    "name": "플라스틱",
+    "name_en": "Plastic",
+    "output_item_id": "Desc_Plastic_C",
+    "output_amount": 2.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_OilRefinery_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_LiquidOil_C",
+        "amount": 3.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_Plastic_1_C",
+    "name": "대체: 재활용 플라스틱",
+    "name_en": "Alternate: Recycled Plastic",
+    "output_item_id": "Desc_Plastic_C",
+    "output_amount": 12.0,
+    "duration_seconds": 12.0,
+    "building_id": "Build_OilRefinery_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Rubber_C",
+        "amount": 6.0
+      },
+      {
+        "item_id": "Desc_LiquidFuel_C",
+        "amount": 6.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_ResidualPlastic_C",
+    "name": "플라스틱 잔여물",
+    "name_en": "Residual Plastic",
+    "output_item_id": "Desc_Plastic_C",
+    "output_amount": 2.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_OilRefinery_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_PolymerResin_C",
+        "amount": 6.0
+      },
+      {
+        "item_id": "Desc_Water_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_PlutoniumCell_C",
+    "name": "포장된 플루토늄 전지",
+    "name_en": "Encased Plutonium Cell",
+    "output_item_id": "Desc_PlutoniumCell_C",
+    "output_amount": 1.0,
+    "duration_seconds": 12.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_PlutoniumPellet_C",
+        "amount": 2.0
+      },
+      {
+        "item_id": "Desc_Cement_C",
+        "amount": 4.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_InstantPlutoniumCell_C",
+    "name": "대체: 즉석 플루토늄 전지",
+    "name_en": "Alternate: Instant Plutonium Cell",
+    "output_item_id": "Desc_PlutoniumCell_C",
+    "output_amount": 20.0,
+    "duration_seconds": 120.0,
+    "building_id": "Build_HadronCollider_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_NonFissibleUranium_C",
+        "amount": 150.0
+      },
+      {
+        "item_id": "Desc_AluminumCasing_C",
+        "amount": 20.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_PlutoniumFuelRod_C",
+    "name": "플루토늄 연료봉",
+    "name_en": "Plutonium Fuel Rod",
+    "output_item_id": "Desc_PlutoniumFuelRod_C",
+    "output_amount": 1.0,
+    "duration_seconds": 240.0,
+    "building_id": "Build_ManufacturerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_PlutoniumCell_C",
+        "amount": 30.0
+      },
+      {
+        "item_id": "Desc_SteelPlate_C",
+        "amount": 18.0
+      },
+      {
+        "item_id": "Desc_ElectromagneticControlRod_C",
+        "amount": 6.0
+      },
+      {
+        "item_id": "Desc_AluminumPlateReinforced_C",
+        "amount": 10.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_PlutoniumFuelUnit_C",
+    "name": "대체: 플루토늄 연료 장치",
+    "name_en": "Alternate: Plutonium Fuel Unit",
+    "output_item_id": "Desc_PlutoniumFuelRod_C",
+    "output_amount": 1.0,
+    "duration_seconds": 120.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_PlutoniumCell_C",
+        "amount": 20.0
+      },
+      {
+        "item_id": "Desc_PressureConversionCube_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Plutonium_C",
+    "name": "플루토늄 펠릿",
+    "name_en": "Plutonium Pellet",
+    "output_item_id": "Desc_PlutoniumPellet_C",
+    "output_amount": 30.0,
+    "duration_seconds": 60.0,
+    "building_id": "Build_HadronCollider_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_NonFissibleUranium_C",
+        "amount": 100.0
+      },
+      {
+        "item_id": "Desc_NuclearWaste_C",
+        "amount": 25.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_PolymerResin_C",
+    "name": "대체: 폴리머 수지",
+    "name_en": "Alternate: Polymer Resin",
+    "output_item_id": "Desc_PolymerResin_C",
+    "output_amount": 13.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_OilRefinery_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_LiquidOil_C",
+        "amount": 6.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_PressureConversionCube_C",
+    "name": "압력 변환 큐브",
+    "name_en": "Pressure Conversion Cube",
+    "output_item_id": "Desc_PressureConversionCube_C",
+    "output_amount": 1.0,
+    "duration_seconds": 60.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_ModularFrameFused_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_ModularFrameLightweight_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_QuantumEnergy_C",
+    "name": "들뜬 광자 물질",
+    "name_en": "Excited Photonic Matter",
+    "output_item_id": "Desc_QuantumEnergy_C",
+    "output_amount": 10.0,
+    "duration_seconds": 3.0,
+    "building_id": "Build_Converter_C",
+    "ingredients": [],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_SuperpositionOscillator_C",
+    "name": "중첩 발진기",
+    "name_en": "Superposition Oscillator",
+    "output_item_id": "Desc_QuantumOscillator_C",
+    "output_amount": 1.0,
+    "duration_seconds": 12.0,
+    "building_id": "Build_QuantumEncoder_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_DarkMatter_C",
+        "amount": 6.0
+      },
+      {
+        "item_id": "Desc_CrystalOscillator_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_AluminumPlate_C",
+        "amount": 9.0
+      },
+      {
+        "item_id": "Desc_QuantumEnergy_C",
+        "amount": 25.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_QuartzCrystal_C",
+    "name": "석영 수정",
+    "name_en": "Quartz Crystal",
+    "output_item_id": "Desc_QuartzCrystal_C",
+    "output_amount": 3.0,
+    "duration_seconds": 8.0,
+    "building_id": "Build_ConstructorMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_RawQuartz_C",
+        "amount": 5.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_PureQuartzCrystal_C",
+    "name": "대체: 순수한 석영 수정",
+    "name_en": "Alternate: Pure Quartz Crystal",
+    "output_item_id": "Desc_QuartzCrystal_C",
+    "output_amount": 7.0,
+    "duration_seconds": 8.0,
+    "building_id": "Build_OilRefinery_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_RawQuartz_C",
+        "amount": 9.0
+      },
+      {
+        "item_id": "Desc_Water_C",
+        "amount": 5.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Alternate_Quartz_Fused_C",
+    "name": "대체: 융합 석영 수정",
+    "name_en": "Alternate: Fused Quartz Crystal",
+    "output_item_id": "Desc_QuartzCrystal_C",
+    "output_amount": 18.0,
+    "duration_seconds": 20.0,
+    "building_id": "Build_FoundryMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_RawQuartz_C",
+        "amount": 25.0
+      },
+      {
+        "item_id": "Desc_Coal_C",
+        "amount": 12.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Alternate_Quartz_Purified_C",
+    "name": "대체: 석영 정제",
+    "name_en": "Alternate: Quartz Purification",
+    "output_item_id": "Desc_QuartzCrystal_C",
+    "output_amount": 15.0,
+    "duration_seconds": 12.0,
+    "building_id": "Build_OilRefinery_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_RawQuartz_C",
+        "amount": 24.0
+      },
+      {
+        "item_id": "Desc_NitricAcid_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Quartz_Coal_C",
+    "name": "석영 원석 (석탄)",
+    "name_en": "Raw Quartz (Coal)",
+    "output_item_id": "Desc_RawQuartz_C",
+    "output_amount": 12.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_Converter_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_SAMIngot_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_Coal_C",
+        "amount": 24.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Quartz_Bauxite_C",
+    "name": "석영 원석 (보크사이트)",
+    "name_en": "Raw Quartz (Bauxite)",
+    "output_item_id": "Desc_RawQuartz_C",
+    "output_amount": 12.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_Converter_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_SAMIngot_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_OreBauxite_C",
+        "amount": 10.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Rebar_Explosive_C",
+    "name": "폭발형 철근",
+    "name_en": "Explosive Rebar",
+    "output_item_id": "Desc_Rebar_Explosive_C",
+    "output_amount": 1.0,
+    "duration_seconds": 12.0,
+    "building_id": "Build_ManufacturerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_SpikedRebar_C",
+        "amount": 2.0
+      },
+      {
+        "item_id": "Desc_GunpowderMK2_C",
+        "amount": 2.0
+      },
+      {
+        "item_id": "Desc_SteelPipe_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Rebar_Spreadshot_C",
+    "name": "파편 철근",
+    "name_en": "Shatter Rebar",
+    "output_item_id": "Desc_Rebar_Spreadshot_C",
+    "output_amount": 1.0,
+    "duration_seconds": 12.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_SpikedRebar_C",
+        "amount": 2.0
+      },
+      {
+        "item_id": "Desc_QuartzCrystal_C",
+        "amount": 3.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Rebar_Stunshot_C",
+    "name": "스턴 철근",
+    "name_en": "Stun Rebar",
+    "output_item_id": "Desc_Rebar_Stunshot_C",
+    "output_amount": 1.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_SpikedRebar_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_HighSpeedWire_C",
+        "amount": 5.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_RocketFuel_C",
+    "name": "로켓 연료",
+    "name_en": "Rocket Fuel",
+    "output_item_id": "Desc_RocketFuel_C",
+    "output_amount": 10.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_Blender_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_LiquidTurboFuel_C",
+        "amount": 6.0
+      },
+      {
+        "item_id": "Desc_NitricAcid_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_RocketFuel_Nitro_C",
+    "name": "대체: 니트로 로켓 연료",
+    "name_en": "Alternate: Nitro Rocket Fuel",
+    "output_item_id": "Desc_RocketFuel_C",
+    "output_amount": 6.0,
+    "duration_seconds": 2.4,
+    "building_id": "Build_Blender_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_LiquidFuel_C",
+        "amount": 4.0
+      },
+      {
+        "item_id": "Desc_NitrogenGas_C",
+        "amount": 3.0
+      },
+      {
+        "item_id": "Desc_Sulfur_C",
+        "amount": 4.0
+      },
+      {
+        "item_id": "Desc_Coal_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_UnpackageRocketFuel_C",
+    "name": "로켓 연료 비우기",
+    "name_en": "Unpackage Rocket Fuel",
+    "output_item_id": "Desc_RocketFuel_C",
+    "output_amount": 2.0,
+    "duration_seconds": 1.0,
+    "building_id": "Build_Packager_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_PackagedRocketFuel_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Rotor_C",
+    "name": "회전자",
+    "name_en": "Rotor",
+    "output_item_id": "Desc_Rotor_C",
+    "output_amount": 1.0,
+    "duration_seconds": 15.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_IronRod_C",
+        "amount": 5.0
+      },
+      {
+        "item_id": "Desc_IronScrew_C",
+        "amount": 25.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_CopperRotor_C",
+    "name": "대체: 구리 회전자",
+    "name_en": "Alternate: Copper Rotor",
+    "output_item_id": "Desc_Rotor_C",
+    "output_amount": 3.0,
+    "duration_seconds": 16.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_CopperSheet_C",
+        "amount": 6.0
+      },
+      {
+        "item_id": "Desc_IronScrew_C",
+        "amount": 52.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Alternate_Rotor_C",
+    "name": "대체: 강철 회전자",
+    "name_en": "Alternate: Steel Rotor",
+    "output_item_id": "Desc_Rotor_C",
+    "output_amount": 1.0,
+    "duration_seconds": 12.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_SteelPipe_C",
+        "amount": 2.0
+      },
+      {
+        "item_id": "Desc_Wire_C",
+        "amount": 6.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Rubber_C",
+    "name": "고무",
+    "name_en": "Rubber",
+    "output_item_id": "Desc_Rubber_C",
+    "output_amount": 2.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_OilRefinery_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_LiquidOil_C",
+        "amount": 3.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_RecycledRubber_C",
+    "name": "대체: 재활용 고무",
+    "name_en": "Alternate: Recycled Rubber",
+    "output_item_id": "Desc_Rubber_C",
+    "output_amount": 12.0,
+    "duration_seconds": 12.0,
+    "building_id": "Build_OilRefinery_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Plastic_C",
+        "amount": 6.0
+      },
+      {
+        "item_id": "Desc_LiquidFuel_C",
+        "amount": 6.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_ResidualRubber_C",
+    "name": "고무 잔여물",
+    "name_en": "Residual Rubber",
+    "output_item_id": "Desc_Rubber_C",
+    "output_amount": 2.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_OilRefinery_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_PolymerResin_C",
+        "amount": 4.0
+      },
+      {
+        "item_id": "Desc_Water_C",
+        "amount": 4.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_SAMFluctuator_C",
+    "name": "S.A.M. 변동기",
+    "name_en": "SAM Fluctuator",
+    "output_item_id": "Desc_SAMFluctuator_C",
+    "output_amount": 1.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_ManufacturerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_SAMIngot_C",
+        "amount": 6.0
+      },
+      {
+        "item_id": "Desc_Wire_C",
+        "amount": 5.0
+      },
+      {
+        "item_id": "Desc_SteelPipe_C",
+        "amount": 3.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_IngotSAM_C",
+    "name": "재생 S.A.M.",
+    "name_en": "Reanimated SAM",
+    "output_item_id": "Desc_SAMIngot_C",
+    "output_amount": 1.0,
+    "duration_seconds": 2.0,
+    "building_id": "Build_ConstructorMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_SAM_C",
+        "amount": 4.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Silica_C",
+    "name": "이산화규소",
+    "name_en": "Silica",
+    "output_item_id": "Desc_Silica_C",
+    "output_amount": 5.0,
+    "duration_seconds": 8.0,
+    "building_id": "Build_ConstructorMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_RawQuartz_C",
+        "amount": 3.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_Silica_C",
+    "name": "대체: 저렴한 이산화규소",
+    "name_en": "Alternate: Cheap Silica",
+    "output_item_id": "Desc_Silica_C",
+    "output_amount": 7.0,
+    "duration_seconds": 8.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_RawQuartz_C",
+        "amount": 3.0
+      },
+      {
+        "item_id": "Desc_Stone_C",
+        "amount": 5.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Alternate_Silica_Distilled_C",
+    "name": "대체: 증류된 이산화규소",
+    "name_en": "Alternate: Distilled Silica",
+    "output_item_id": "Desc_Silica_C",
+    "output_amount": 27.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_Blender_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_DissolvedSilica_C",
+        "amount": 12.0
+      },
+      {
+        "item_id": "Desc_Stone_C",
+        "amount": 5.0
+      },
+      {
+        "item_id": "Desc_Water_C",
+        "amount": 10.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_SingularityCell_C",
+    "name": "특이점 셀",
+    "name_en": "Singularity Cell",
+    "output_item_id": "Desc_SingularityCell_C",
+    "output_amount": 10.0,
+    "duration_seconds": 60.0,
+    "building_id": "Build_ManufacturerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_SpaceElevatorPart_9_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_DarkMatter_C",
+        "amount": 20.0
+      },
+      {
+        "item_id": "Desc_IronPlate_C",
+        "amount": 100.0
+      },
+      {
+        "item_id": "Desc_Cement_C",
+        "amount": 200.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_SpaceElevatorPart_10_C",
+    "name": "생화학 조형기",
+    "name_en": "Biochemical Sculptor",
+    "output_item_id": "Desc_SpaceElevatorPart_10_C",
+    "output_amount": 4.0,
+    "duration_seconds": 120.0,
+    "building_id": "Build_Blender_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_SpaceElevatorPart_7_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_FicsiteMesh_C",
+        "amount": 80.0
+      },
+      {
+        "item_id": "Desc_Water_C",
+        "amount": 20.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_SpaceElevatorPart_11_C",
+    "name": "탄도 워프 드라이브",
+    "name_en": "Ballistic Warp Drive",
+    "output_item_id": "Desc_SpaceElevatorPart_11_C",
+    "output_amount": 1.0,
+    "duration_seconds": 60.0,
+    "building_id": "Build_ManufacturerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_SpaceElevatorPart_8_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_SingularityCell_C",
+        "amount": 5.0
+      },
+      {
+        "item_id": "Desc_QuantumOscillator_C",
+        "amount": 2.0
+      },
+      {
+        "item_id": "Desc_DarkMatter_C",
+        "amount": 40.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_SpaceElevatorPart_12_C",
+    "name": "인공지능 확장 서버",
+    "name_en": "AI Expansion Server",
+    "output_item_id": "Desc_SpaceElevatorPart_12_C",
+    "output_amount": 1.0,
+    "duration_seconds": 15.0,
+    "building_id": "Build_QuantumEncoder_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_SpaceElevatorPart_6_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_TemporalProcessor_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_QuantumOscillator_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_QuantumEnergy_C",
+        "amount": 25.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_SpaceElevatorPart_1_C",
+    "name": "지능형 도금판",
+    "name_en": "Smart Plating",
+    "output_item_id": "Desc_SpaceElevatorPart_1_C",
+    "output_amount": 1.0,
+    "duration_seconds": 30.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_IronPlateReinforced_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_Rotor_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_PlasticSmartPlating_C",
+    "name": "대체: 플라스틱 지능형 도금판",
+    "name_en": "Alternate: Plastic Smart Plating",
+    "output_item_id": "Desc_SpaceElevatorPart_1_C",
+    "output_amount": 2.0,
+    "duration_seconds": 24.0,
+    "building_id": "Build_ManufacturerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_IronPlateReinforced_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_Rotor_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_Plastic_C",
+        "amount": 3.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_SpaceElevatorPart_2_C",
+    "name": "다용도 골조",
+    "name_en": "Versatile Framework",
+    "output_item_id": "Desc_SpaceElevatorPart_2_C",
+    "output_amount": 2.0,
+    "duration_seconds": 24.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_ModularFrame_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_SteelPlate_C",
+        "amount": 12.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_FlexibleFramework_C",
+    "name": "대체: 유연한 골조",
+    "name_en": "Alternate: Flexible Framework",
+    "output_item_id": "Desc_SpaceElevatorPart_2_C",
+    "output_amount": 2.0,
+    "duration_seconds": 16.0,
+    "building_id": "Build_ManufacturerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_ModularFrame_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_SteelPlate_C",
+        "amount": 6.0
+      },
+      {
+        "item_id": "Desc_Rubber_C",
+        "amount": 8.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_SpaceElevatorPart_3_C",
+    "name": "자동 배선기",
+    "name_en": "Automated Wiring",
+    "output_item_id": "Desc_SpaceElevatorPart_3_C",
+    "output_amount": 1.0,
+    "duration_seconds": 24.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Stator_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_Cable_C",
+        "amount": 20.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_HighSpeedWiring_C",
+    "name": "대체: 자동 고속 전선",
+    "name_en": "Alternate: Automated Speed Wiring",
+    "output_item_id": "Desc_SpaceElevatorPart_3_C",
+    "output_amount": 4.0,
+    "duration_seconds": 32.0,
+    "building_id": "Build_ManufacturerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Stator_C",
+        "amount": 2.0
+      },
+      {
+        "item_id": "Desc_Wire_C",
+        "amount": 40.0
+      },
+      {
+        "item_id": "Desc_HighSpeedConnector_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_SpaceElevatorPart_4_C",
+    "name": "모듈 엔진",
+    "name_en": "Modular Engine",
+    "output_item_id": "Desc_SpaceElevatorPart_4_C",
+    "output_amount": 1.0,
+    "duration_seconds": 60.0,
+    "building_id": "Build_ManufacturerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Motor_C",
+        "amount": 2.0
+      },
+      {
+        "item_id": "Desc_Rubber_C",
+        "amount": 15.0
+      },
+      {
+        "item_id": "Desc_SpaceElevatorPart_1_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_SpaceElevatorPart_5_C",
+    "name": "적응형 제어 장치",
+    "name_en": "Adaptive Control Unit",
+    "output_item_id": "Desc_SpaceElevatorPart_5_C",
+    "output_amount": 1.0,
+    "duration_seconds": 60.0,
+    "building_id": "Build_ManufacturerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_SpaceElevatorPart_3_C",
+        "amount": 5.0
+      },
+      {
+        "item_id": "Desc_CircuitBoard_C",
+        "amount": 5.0
+      },
+      {
+        "item_id": "Desc_ModularFrameHeavy_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_Computer_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_SpaceElevatorPart_6_C",
+    "name": "자기장 발생기",
+    "name_en": "Magnetic Field Generator",
+    "output_item_id": "Desc_SpaceElevatorPart_6_C",
+    "output_amount": 2.0,
+    "duration_seconds": 120.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_SpaceElevatorPart_2_C",
+        "amount": 5.0
+      },
+      {
+        "item_id": "Desc_ElectromagneticControlRod_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_SpaceElevatorPart_7_C",
+    "name": "어셈블리 지휘 시스템",
+    "name_en": "Assembly Director System",
+    "output_item_id": "Desc_SpaceElevatorPart_7_C",
+    "output_amount": 1.0,
+    "duration_seconds": 80.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_SpaceElevatorPart_5_C",
+        "amount": 2.0
+      },
+      {
+        "item_id": "Desc_ComputerSuper_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_SpaceElevatorPart_8_C",
+    "name": "열 추진 로켓",
+    "name_en": "Thermal Propulsion Rocket",
+    "output_item_id": "Desc_SpaceElevatorPart_8_C",
+    "output_amount": 2.0,
+    "duration_seconds": 120.0,
+    "building_id": "Build_ManufacturerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_SpaceElevatorPart_4_C",
+        "amount": 5.0
+      },
+      {
+        "item_id": "Desc_MotorLightweight_C",
+        "amount": 2.0
+      },
+      {
+        "item_id": "Desc_CoolingSystem_C",
+        "amount": 6.0
+      },
+      {
+        "item_id": "Desc_ModularFrameFused_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_SpaceElevatorPart_9_C",
+    "name": "핵 파스타",
+    "name_en": "Nuclear Pasta",
+    "output_item_id": "Desc_SpaceElevatorPart_9_C",
+    "output_amount": 1.0,
+    "duration_seconds": 120.0,
+    "building_id": "Build_HadronCollider_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_CopperDust_C",
+        "amount": 200.0
+      },
+      {
+        "item_id": "Desc_PressureConversionCube_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_SpikedRebar_C",
+    "name": "철제 철근",
+    "name_en": "Iron Rebar",
+    "output_item_id": "Desc_SpikedRebar_C",
+    "output_amount": 1.0,
+    "duration_seconds": 4.0,
+    "building_id": "Build_ConstructorMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_IronRod_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Stator_C",
+    "name": "고정자",
+    "name_en": "Stator",
+    "output_item_id": "Desc_Stator_C",
+    "output_amount": 1.0,
+    "duration_seconds": 12.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_SteelPipe_C",
+        "amount": 3.0
+      },
+      {
+        "item_id": "Desc_Wire_C",
+        "amount": 8.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_Stator_C",
+    "name": "대체: 고속 전선 고정자",
+    "name_en": "Alternate: Quickwire Stator",
+    "output_item_id": "Desc_Stator_C",
+    "output_amount": 2.0,
+    "duration_seconds": 15.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_SteelPipe_C",
+        "amount": 4.0
+      },
+      {
+        "item_id": "Desc_HighSpeedWire_C",
+        "amount": 15.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_IngotSteel_C",
+    "name": "강철 주괴",
+    "name_en": "Steel Ingot",
+    "output_item_id": "Desc_SteelIngot_C",
+    "output_amount": 3.0,
+    "duration_seconds": 4.0,
+    "building_id": "Build_FoundryMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_OreIron_C",
+        "amount": 3.0
+      },
+      {
+        "item_id": "Desc_Coal_C",
+        "amount": 3.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_CokeSteelIngot_C",
+    "name": "대체: 코크스 강철 주괴",
+    "name_en": "Alternate: Coke Steel Ingot",
+    "output_item_id": "Desc_SteelIngot_C",
+    "output_amount": 20.0,
+    "duration_seconds": 12.0,
+    "building_id": "Build_FoundryMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_OreIron_C",
+        "amount": 15.0
+      },
+      {
+        "item_id": "Desc_PetroleumCoke_C",
+        "amount": 15.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Alternate_IngotSteel_1_C",
+    "name": "대체: 단단한 강철 주괴",
+    "name_en": "Alternate: Solid Steel Ingot",
+    "output_item_id": "Desc_SteelIngot_C",
+    "output_amount": 3.0,
+    "duration_seconds": 3.0,
+    "building_id": "Build_FoundryMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_IronIngot_C",
+        "amount": 2.0
+      },
+      {
+        "item_id": "Desc_Coal_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Alternate_IngotSteel_2_C",
+    "name": "대체: 압축 강철 주괴",
+    "name_en": "Alternate: Compacted Steel Ingot",
+    "output_item_id": "Desc_SteelIngot_C",
+    "output_amount": 4.0,
+    "duration_seconds": 24.0,
+    "building_id": "Build_FoundryMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_OreIron_C",
+        "amount": 2.0
+      },
+      {
+        "item_id": "Desc_CompactedCoal_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_SteelPipe_C",
+    "name": "강철 파이프",
+    "name_en": "Steel Pipe",
+    "output_item_id": "Desc_SteelPipe_C",
+    "output_amount": 2.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_ConstructorMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_SteelIngot_C",
+        "amount": 3.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_SteelPipe_Iron_C",
+    "name": "대체: 철 파이프",
+    "name_en": "Alternate: Iron Pipe",
+    "output_item_id": "Desc_SteelPipe_C",
+    "output_amount": 5.0,
+    "duration_seconds": 12.0,
+    "building_id": "Build_ConstructorMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_IronIngot_C",
+        "amount": 20.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Alternate_SteelPipe_Molded_C",
+    "name": "대체: 성형된 강철 파이프",
+    "name_en": "Alternate: Molded Steel Pipe",
+    "output_item_id": "Desc_SteelPipe_C",
+    "output_amount": 5.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_FoundryMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_SteelIngot_C",
+        "amount": 5.0
+      },
+      {
+        "item_id": "Desc_Cement_C",
+        "amount": 3.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_EncasedIndustrialBeam_C",
+    "name": "포장된 산업용 빔",
+    "name_en": "Encased Industrial Beam",
+    "output_item_id": "Desc_SteelPlateReinforced_C",
+    "output_amount": 1.0,
+    "duration_seconds": 10.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_SteelPlate_C",
+        "amount": 3.0
+      },
+      {
+        "item_id": "Desc_Cement_C",
+        "amount": 6.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_EncasedIndustrialBeam_C",
+    "name": "대체: 포장된 산업용 파이프",
+    "name_en": "Alternate: Encased Industrial Pipe",
+    "output_item_id": "Desc_SteelPlateReinforced_C",
+    "output_amount": 1.0,
+    "duration_seconds": 15.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_SteelPipe_C",
+        "amount": 6.0
+      },
+      {
+        "item_id": "Desc_Cement_C",
+        "amount": 5.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_SteelBeam_C",
+    "name": "강철 빔",
+    "name_en": "Steel Beam",
+    "output_item_id": "Desc_SteelPlate_C",
+    "output_amount": 1.0,
+    "duration_seconds": 4.0,
+    "building_id": "Build_ConstructorMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_SteelIngot_C",
+        "amount": 4.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_SteelBeam_Aluminum_C",
+    "name": "대체: 알루미늄 빔",
+    "name_en": "Alternate: Aluminum Beam",
+    "output_item_id": "Desc_SteelPlate_C",
+    "output_amount": 3.0,
+    "duration_seconds": 8.0,
+    "building_id": "Build_ConstructorMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_AluminumIngot_C",
+        "amount": 3.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Alternate_SteelBeam_Molded_C",
+    "name": "대체: 성형된 빔",
+    "name_en": "Alternate: Molded Beam",
+    "output_item_id": "Desc_SteelPlate_C",
+    "output_amount": 9.0,
+    "duration_seconds": 12.0,
+    "building_id": "Build_FoundryMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_SteelIngot_C",
+        "amount": 24.0
+      },
+      {
+        "item_id": "Desc_Cement_C",
+        "amount": 16.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Limestone_Sulfur_C",
+    "name": "석회석 (황)",
+    "name_en": "Limestone (Sulfur)",
+    "output_item_id": "Desc_Stone_C",
+    "output_amount": 12.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_Converter_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_SAMIngot_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_Sulfur_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Sulfur_Iron_C",
+    "name": "황 (철)",
+    "name_en": "Sulfur (Iron)",
+    "output_item_id": "Desc_Sulfur_C",
+    "output_amount": 12.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_Converter_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_SAMIngot_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_OreIron_C",
+        "amount": 30.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Sulfur_Coal_C",
+    "name": "황 (석탄)",
+    "name_en": "Sulfur (Coal)",
+    "output_item_id": "Desc_Sulfur_C",
+    "output_amount": 12.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_Converter_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_SAMIngot_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_Coal_C",
+        "amount": 20.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_SulfuricAcid_C",
+    "name": "황산",
+    "name_en": "Sulfuric Acid",
+    "output_item_id": "Desc_SulfuricAcid_C",
+    "output_amount": 5.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_OilRefinery_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Sulfur_C",
+        "amount": 5.0
+      },
+      {
+        "item_id": "Desc_Water_C",
+        "amount": 5.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_UnpackageSulfuricAcid_C",
+    "name": "황산 비우기",
+    "name_en": "Unpackage Sulfuric Acid",
+    "output_item_id": "Desc_SulfuricAcid_C",
+    "output_amount": 1.0,
+    "duration_seconds": 1.0,
+    "building_id": "Build_Packager_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_PackagedSulfuricAcid_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_TemporalProcessor_C",
+    "name": "신경 양자 처리기",
+    "name_en": "Neural-Quantum Processor",
+    "output_item_id": "Desc_TemporalProcessor_C",
+    "output_amount": 1.0,
+    "duration_seconds": 20.0,
+    "building_id": "Build_QuantumEncoder_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_TimeCrystal_C",
+        "amount": 5.0
+      },
+      {
+        "item_id": "Desc_ComputerSuper_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_FicsiteMesh_C",
+        "amount": 15.0
+      },
+      {
+        "item_id": "Desc_QuantumEnergy_C",
+        "amount": 25.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_TimeCrystal_C",
+    "name": "시간 수정",
+    "name_en": "Time Crystal",
+    "output_item_id": "Desc_TimeCrystal_C",
+    "output_amount": 1.0,
+    "duration_seconds": 10.0,
+    "building_id": "Build_Converter_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Diamond_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_PackagedTurboFuel_C",
+    "name": "포장된 터보 연료",
+    "name_en": "Packaged Turbofuel",
+    "output_item_id": "Desc_TurboFuel_C",
+    "output_amount": 2.0,
+    "duration_seconds": 6.0,
+    "building_id": "Build_Packager_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_LiquidTurboFuel_C",
+        "amount": 2.0
+      },
+      {
+        "item_id": "Desc_FluidCanister_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_UraniumCell_C",
+    "name": "포장된 우라늄 전지",
+    "name_en": "Encased Uranium Cell",
+    "output_item_id": "Desc_UraniumCell_C",
+    "output_amount": 5.0,
+    "duration_seconds": 12.0,
+    "building_id": "Build_Blender_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_OreUranium_C",
+        "amount": 10.0
+      },
+      {
+        "item_id": "Desc_Cement_C",
+        "amount": 3.0
+      },
+      {
+        "item_id": "Desc_SulfuricAcid_C",
+        "amount": 8.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_UraniumCell_1_C",
+    "name": "대체: 주입된 우라늄 전지",
+    "name_en": "Alternate: Infused Uranium Cell",
+    "output_item_id": "Desc_UraniumCell_C",
+    "output_amount": 4.0,
+    "duration_seconds": 12.0,
+    "building_id": "Build_ManufacturerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_OreUranium_C",
+        "amount": 5.0
+      },
+      {
+        "item_id": "Desc_Silica_C",
+        "amount": 3.0
+      },
+      {
+        "item_id": "Desc_Sulfur_C",
+        "amount": 5.0
+      },
+      {
+        "item_id": "Desc_HighSpeedWire_C",
+        "amount": 15.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_UnpackageWater_C",
+    "name": "물 비우기",
+    "name_en": "Unpackage Water",
+    "output_item_id": "Desc_Water_C",
+    "output_amount": 2.0,
+    "duration_seconds": 1.0,
+    "building_id": "Build_Packager_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_PackagedWater_C",
+        "amount": 2.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Wire_C",
+    "name": "전선",
+    "name_en": "Wire",
+    "output_item_id": "Desc_Wire_C",
+    "output_amount": 2.0,
+    "duration_seconds": 4.0,
+    "building_id": "Build_ConstructorMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_CopperIngot_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": true,
+    "is_alternate": false
+  },
+  {
+    "id": "Recipe_Alternate_FusedWire_C",
+    "name": "대체: 융합된 전선",
+    "name_en": "Alternate: Fused Wire",
+    "output_item_id": "Desc_Wire_C",
+    "output_amount": 30.0,
+    "duration_seconds": 20.0,
+    "building_id": "Build_AssemblerMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_CopperIngot_C",
+        "amount": 4.0
+      },
+      {
+        "item_id": "Desc_GoldIngot_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Alternate_Wire_1_C",
+    "name": "대체: 철 전선",
+    "name_en": "Alternate: Iron Wire",
+    "output_item_id": "Desc_Wire_C",
+    "output_amount": 9.0,
+    "duration_seconds": 24.0,
+    "building_id": "Build_ConstructorMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_IronIngot_C",
+        "amount": 5.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Recipe_Alternate_Wire_2_C",
+    "name": "대체: 카테리움 전선",
+    "name_en": "Alternate: Caterium Wire",
+    "output_item_id": "Desc_Wire_C",
+    "output_amount": 8.0,
+    "duration_seconds": 4.0,
+    "building_id": "Build_ConstructorMk1_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_GoldIngot_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": true
+  },
+  {
+    "id": "Power_Build_GeneratorBiomass_Automated_C_Desc_Leaves_C",
+    "name": "바이오매스 연소기 · 이파리",
+    "name_en": "Biomass Burner · Leaves",
+    "output_item_id": "Electricity_MW",
+    "output_amount": 30.0,
+    "duration_seconds": 60.0,
+    "building_id": "Build_GeneratorBiomass_Automated_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Leaves_C",
+        "amount": 120.0
+      }
+    ],
+    "byproducts": [],
+    "is_default": false,
+    "is_alternate": false,
+    "kind": "generator"
+  },
+  {
+    "id": "Power_Build_GeneratorBiomass_Automated_C_Desc_Wood_C",
+    "name": "바이오매스 연소기 · 나무",
+    "name_en": "Biomass Burner · Wood",
+    "output_item_id": "Electricity_MW",
+    "output_amount": 30.0,
+    "duration_seconds": 60.0,
+    "building_id": "Build_GeneratorBiomass_Automated_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Wood_C",
+        "amount": 18.0
+      }
+    ],
+    "byproducts": [],
+    "is_default": false,
+    "is_alternate": false,
+    "kind": "generator"
+  },
+  {
+    "id": "Power_Build_GeneratorBiomass_Automated_C_Desc_Mycelia_C",
+    "name": "바이오매스 연소기 · 균사",
+    "name_en": "Biomass Burner · Mycelia",
+    "output_item_id": "Electricity_MW",
+    "output_amount": 30.0,
+    "duration_seconds": 60.0,
+    "building_id": "Build_GeneratorBiomass_Automated_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Mycelia_C",
+        "amount": 90.0
+      }
+    ],
+    "byproducts": [],
+    "is_default": false,
+    "is_alternate": false,
+    "kind": "generator"
+  },
+  {
+    "id": "Power_Build_GeneratorBiomass_Automated_C_Desc_GenericBiomass_C",
+    "name": "바이오매스 연소기 · 바이오매스",
+    "name_en": "Biomass Burner · Biomass",
+    "output_item_id": "Electricity_MW",
+    "output_amount": 30.0,
+    "duration_seconds": 60.0,
+    "building_id": "Build_GeneratorBiomass_Automated_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_GenericBiomass_C",
+        "amount": 10.0
+      }
+    ],
+    "byproducts": [],
+    "is_default": false,
+    "is_alternate": false,
+    "kind": "generator"
+  },
+  {
+    "id": "Power_Build_GeneratorBiomass_Automated_C_Desc_Biofuel_C",
+    "name": "바이오매스 연소기 · 고체 바이오 연료",
+    "name_en": "Biomass Burner · Solid Biofuel",
+    "output_item_id": "Electricity_MW",
+    "output_amount": 30.0,
+    "duration_seconds": 60.0,
+    "building_id": "Build_GeneratorBiomass_Automated_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Biofuel_C",
+        "amount": 4.0
+      }
+    ],
+    "byproducts": [],
+    "is_default": false,
+    "is_alternate": false,
+    "kind": "generator"
+  },
+  {
+    "id": "Power_Build_GeneratorBiomass_Automated_C_Desc_PackagedBiofuel_C",
+    "name": "바이오매스 연소기 · 포장된 액체 바이오 연료",
+    "name_en": "Biomass Burner · Packaged Liquid Biofuel",
+    "output_item_id": "Electricity_MW",
+    "output_amount": 30.0,
+    "duration_seconds": 60.0,
+    "building_id": "Build_GeneratorBiomass_Automated_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_PackagedBiofuel_C",
+        "amount": 2.4
+      }
+    ],
+    "byproducts": [],
+    "is_default": false,
+    "is_alternate": false,
+    "kind": "generator"
+  },
+  {
+    "id": "Power_Build_GeneratorCoal_C_Desc_Coal_C",
+    "name": "석탄 발전기 · 석탄",
+    "name_en": "Coal-Powered Generator · Coal",
+    "output_item_id": "Electricity_MW",
+    "output_amount": 75.0,
+    "duration_seconds": 60.0,
+    "building_id": "Build_GeneratorCoal_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_Coal_C",
+        "amount": 15.0
+      },
+      {
+        "item_id": "Desc_Water_C",
+        "amount": 45.0
+      }
+    ],
+    "byproducts": [],
+    "is_default": true,
+    "is_alternate": false,
+    "kind": "generator"
+  },
+  {
+    "id": "Power_Build_GeneratorCoal_C_Desc_CompactedCoal_C",
+    "name": "석탄 발전기 · 압축 석탄",
+    "name_en": "Coal-Powered Generator · Compacted Coal",
+    "output_item_id": "Electricity_MW",
+    "output_amount": 75.0,
+    "duration_seconds": 60.0,
+    "building_id": "Build_GeneratorCoal_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_CompactedCoal_C",
+        "amount": 7.142857142857143
+      },
+      {
+        "item_id": "Desc_Water_C",
+        "amount": 45.0
+      }
+    ],
+    "byproducts": [],
+    "is_default": false,
+    "is_alternate": false,
+    "kind": "generator"
+  },
+  {
+    "id": "Power_Build_GeneratorCoal_C_Desc_PetroleumCoke_C",
+    "name": "석탄 발전기 · 석유 코크스",
+    "name_en": "Coal-Powered Generator · Petroleum Coke",
+    "output_item_id": "Electricity_MW",
+    "output_amount": 75.0,
+    "duration_seconds": 60.0,
+    "building_id": "Build_GeneratorCoal_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_PetroleumCoke_C",
+        "amount": 25.0
+      },
+      {
+        "item_id": "Desc_Water_C",
+        "amount": 45.0
+      }
+    ],
+    "byproducts": [],
+    "is_default": false,
+    "is_alternate": false,
+    "kind": "generator"
+  },
+  {
+    "id": "Power_Build_GeneratorFuel_C_Desc_LiquidFuel_C",
+    "name": "연료 발전기 · 연료",
+    "name_en": "Fuel-Powered Generator · Fuel",
+    "output_item_id": "Electricity_MW",
+    "output_amount": 250.0,
+    "duration_seconds": 60.0,
+    "building_id": "Build_GeneratorFuel_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_LiquidFuel_C",
+        "amount": 20.0
+      }
+    ],
+    "byproducts": [],
+    "is_default": false,
+    "is_alternate": false,
+    "kind": "generator"
+  },
+  {
+    "id": "Power_Build_GeneratorFuel_C_Desc_LiquidTurboFuel_C",
+    "name": "연료 발전기 · 터보 연료",
+    "name_en": "Fuel-Powered Generator · Turbofuel",
+    "output_item_id": "Electricity_MW",
+    "output_amount": 250.0,
+    "duration_seconds": 60.0,
+    "building_id": "Build_GeneratorFuel_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_LiquidTurboFuel_C",
+        "amount": 7.5
+      }
+    ],
+    "byproducts": [],
+    "is_default": false,
+    "is_alternate": false,
+    "kind": "generator"
+  },
+  {
+    "id": "Power_Build_GeneratorFuel_C_Desc_LiquidBiofuel_C",
+    "name": "연료 발전기 · 액체 바이오 연료",
+    "name_en": "Fuel-Powered Generator · Liquid Biofuel",
+    "output_item_id": "Electricity_MW",
+    "output_amount": 250.0,
+    "duration_seconds": 60.0,
+    "building_id": "Build_GeneratorFuel_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_LiquidBiofuel_C",
+        "amount": 20.0
+      }
+    ],
+    "byproducts": [],
+    "is_default": false,
+    "is_alternate": false,
+    "kind": "generator"
+  },
+  {
+    "id": "Power_Build_GeneratorFuel_C_Desc_RocketFuel_C",
+    "name": "연료 발전기 · 로켓 연료",
+    "name_en": "Fuel-Powered Generator · Rocket Fuel",
+    "output_item_id": "Electricity_MW",
+    "output_amount": 250.0,
+    "duration_seconds": 60.0,
+    "building_id": "Build_GeneratorFuel_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_RocketFuel_C",
+        "amount": 4.166666666666667
+      }
+    ],
+    "byproducts": [],
+    "is_default": false,
+    "is_alternate": false,
+    "kind": "generator"
+  },
+  {
+    "id": "Power_Build_GeneratorFuel_C_Desc_IonizedFuel_C",
+    "name": "연료 발전기 · 이온화 연료",
+    "name_en": "Fuel-Powered Generator · Ionized Fuel",
+    "output_item_id": "Electricity_MW",
+    "output_amount": 250.0,
+    "duration_seconds": 60.0,
+    "building_id": "Build_GeneratorFuel_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_IonizedFuel_C",
+        "amount": 3.0
+      }
+    ],
+    "byproducts": [],
+    "is_default": false,
+    "is_alternate": false,
+    "kind": "generator"
+  },
+  {
+    "id": "Power_Build_GeneratorNuclear_C_Desc_NuclearFuelRod_C",
+    "name": "원자력 발전소 · 우라늄 연료봉",
+    "name_en": "Nuclear Power Plant · Uranium Fuel Rod",
+    "output_item_id": "Electricity_MW",
+    "output_amount": 2500.0,
+    "duration_seconds": 60.0,
+    "building_id": "Build_GeneratorNuclear_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_NuclearFuelRod_C",
+        "amount": 0.2
+      },
+      {
+        "item_id": "Desc_Water_C",
+        "amount": 240.0
+      }
+    ],
+    "byproducts": [
+      {
+        "item_id": "Desc_NuclearWaste_C",
+        "amount": 10.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": false,
+    "kind": "generator"
+  },
+  {
+    "id": "Power_Build_GeneratorNuclear_C_Desc_PlutoniumFuelRod_C",
+    "name": "원자력 발전소 · 플루토늄 연료봉",
+    "name_en": "Nuclear Power Plant · Plutonium Fuel Rod",
+    "output_item_id": "Electricity_MW",
+    "output_amount": 2500.0,
+    "duration_seconds": 60.0,
+    "building_id": "Build_GeneratorNuclear_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_PlutoniumFuelRod_C",
+        "amount": 0.1
+      },
+      {
+        "item_id": "Desc_Water_C",
+        "amount": 240.0
+      }
+    ],
+    "byproducts": [
+      {
+        "item_id": "Desc_PlutoniumWaste_C",
+        "amount": 1.0
+      }
+    ],
+    "is_default": false,
+    "is_alternate": false,
+    "kind": "generator"
+  },
+  {
+    "id": "Power_Build_GeneratorNuclear_C_Desc_FicsoniumFuelRod_C",
+    "name": "원자력 발전소 · 픽소니움 연료봉",
+    "name_en": "Nuclear Power Plant · Ficsonium Fuel Rod",
+    "output_item_id": "Electricity_MW",
+    "output_amount": 2500.0,
+    "duration_seconds": 60.0,
+    "building_id": "Build_GeneratorNuclear_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_FicsoniumFuelRod_C",
+        "amount": 1.0
+      },
+      {
+        "item_id": "Desc_Water_C",
+        "amount": 240.0
+      }
+    ],
+    "byproducts": [],
+    "is_default": false,
+    "is_alternate": false,
+    "kind": "generator"
+  },
+  {
+    "id": "Power_Build_GeneratorGeoThermal_C_Impure",
+    "name": "지열 발전기 · 저순도",
+    "name_en": "Geothermal Generator · Impure",
+    "output_item_id": "Electricity_MW",
+    "output_amount": 100.0,
+    "duration_seconds": 60.0,
+    "building_id": "Build_GeneratorGeoThermal_C",
+    "ingredients": [],
+    "is_default": false,
+    "kind": "geothermal",
+    "generation_min_mw": 50.0,
+    "generation_max_mw": 150.0,
+    "site_limit": 9
+  },
+  {
+    "id": "Power_Build_GeneratorGeoThermal_C_Normal",
+    "name": "지열 발전기 · 보통",
+    "name_en": "Geothermal Generator · Normal",
+    "output_item_id": "Electricity_MW",
+    "output_amount": 200.0,
+    "duration_seconds": 60.0,
+    "building_id": "Build_GeneratorGeoThermal_C",
+    "ingredients": [],
+    "is_default": false,
+    "kind": "geothermal",
+    "generation_min_mw": 100.0,
+    "generation_max_mw": 300.0,
+    "site_limit": 13
+  },
+  {
+    "id": "Power_Build_GeneratorGeoThermal_C_Pure",
+    "name": "지열 발전기 · 고순도",
+    "name_en": "Geothermal Generator · Pure",
+    "output_item_id": "Electricity_MW",
+    "output_amount": 400.0,
+    "duration_seconds": 60.0,
+    "building_id": "Build_GeneratorGeoThermal_C",
+    "ingredients": [],
+    "is_default": false,
+    "kind": "geothermal",
+    "generation_min_mw": 200.0,
+    "generation_max_mw": 600.0,
+    "site_limit": 9
+  },
+  {
+    "id": "Power_Build_AlienPowerBuilding_C_Base",
+    "name": "외계 전력 증강기 · 기본",
+    "name_en": "Alien Power Augmenter · Base",
+    "output_item_id": "Electricity_MW",
+    "output_amount": 500.0,
+    "duration_seconds": 60.0,
+    "building_id": "Build_AlienPowerBuilding_C",
+    "ingredients": [],
+    "is_default": false,
+    "kind": "augmenter",
+    "grid_boost_fraction": 0.1,
+    "site_limit": 10
+  },
+  {
+    "id": "Power_Build_AlienPowerBuilding_C_Matrix",
+    "name": "외계 전력 증강기 · 전력 매트릭스",
+    "name_en": "Alien Power Augmenter · Power Matrix",
+    "output_item_id": "Electricity_MW",
+    "output_amount": 500.0,
+    "duration_seconds": 60.0,
+    "building_id": "Build_AlienPowerBuilding_C",
+    "ingredients": [
+      {
+        "item_id": "Desc_AlienPowerFuel_C",
+        "amount": 5.0
+      }
+    ],
+    "is_default": false,
+    "kind": "augmenter",
+    "grid_boost_fraction": 0.30000000000000004,
+    "site_limit": 10
+  }
+]

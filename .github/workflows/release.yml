@@ -1,0 +1,58 @@
+name: Build and Release
+
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: write
+  id-token: write
+  attestations: write
+
+jobs:
+  release:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install dependencies
+        run: |
+          python -m pip install -r requirements.txt
+          python -m pip install pyinstaller==6.22.3
+      - name: Test
+        run: python -m unittest discover -s tests -v
+        env:
+          QT_QPA_PLATFORM: offscreen
+      - name: Build single-file executable
+        run: >-
+          python -m PyInstaller --noconfirm --clean --onefile --windowed
+          --name SatisfactoryBuildCalculator --add-data "data;data" main.py
+      - name: Create checksum
+        shell: pwsh
+        run: |
+          $hash = (Get-FileHash dist/SatisfactoryBuildCalculator.exe -Algorithm SHA256).Hash.ToLowerInvariant()
+          "$hash  SatisfactoryBuildCalculator.exe" | Set-Content -Encoding ascii dist/SHA256SUMS.txt
+      - name: Attest executable
+        uses: actions/attest@v4
+        with:
+          subject-path: dist/SatisfactoryBuildCalculator.exe
+      - name: Publish GitHub Release
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "${{ github.ref_name }}" `
+            dist/SatisfactoryBuildCalculator.exe `
+            dist/SHA256SUMS.txt `
+            LICENSE `
+            DATA_NOTICE.md `
+            THIRD_PARTY_NOTICES.md `
+            third_party_licenses/LGPL-3.0.txt `
+            third_party_licenses/PyInstaller-COPYING.txt `
+            third_party_licenses/Python-3.12-LICENSE.txt `
+            docs/REPLACING_QT.md `
+            --title "세티스팩토리 빌드 계산기 ${{ github.ref_name }}" `
+            --generate-notes

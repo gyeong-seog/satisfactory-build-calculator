@@ -1,0 +1,1122 @@
+[
+  {
+    "id": "BP_ItemDescriptorPortableMiner_C",
+    "name_ko": "휴대용 채굴기",
+    "name_en": "Portable Miner",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_AlienDNACapsule_C",
+    "name_ko": "외계 DNA 캡슐",
+    "name_en": "Alien DNA Capsule",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_AlienPowerFuel_C",
+    "name_ko": "외계 동력 매트릭스",
+    "name_en": "Alien Power Matrix",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_AlienProtein_C",
+    "name_ko": "외계 단백질",
+    "name_en": "Alien Protein",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_AluminaSolution_C",
+    "name_ko": "알루미나 용액",
+    "name_en": "Alumina Solution",
+    "is_raw_resource": false,
+    "unit": "m3"
+  },
+  {
+    "id": "Desc_AluminumCasing_C",
+    "name_ko": "알루미늄 케이스",
+    "name_en": "Aluminum Casing",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_AluminumIngot_C",
+    "name_ko": "알루미늄 주괴",
+    "name_en": "Aluminum Ingot",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_AluminumPlateReinforced_C",
+    "name_ko": "방열판",
+    "name_en": "Heat Sink",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_AluminumPlate_C",
+    "name_ko": "알클래드 알루미늄 판",
+    "name_en": "Alclad Aluminum Sheet",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_AluminumScrap_C",
+    "name_ko": "알루미늄 조각",
+    "name_en": "Aluminum Scrap",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_Battery_C",
+    "name_ko": "배터리",
+    "name_en": "Battery",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_Biofuel_C",
+    "name_ko": "고체 바이오 연료",
+    "name_en": "Solid Biofuel",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_Cable_C",
+    "name_ko": "케이블",
+    "name_en": "Cable",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_CandyCane_C",
+    "name_ko": "지팡이 사탕",
+    "name_en": "Candy Cane",
+    "is_raw_resource": true,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_CartridgeChaos_C",
+    "name_ko": "소총 터보 탄약",
+    "name_en": "Turbo Rifle Ammo",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_CartridgeSmartProjectile_C",
+    "name_ko": "소총 추적 탄약",
+    "name_en": "Homing Rifle Ammo",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_CartridgeStandard_C",
+    "name_ko": "소총 탄약",
+    "name_en": "Rifle Ammo",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_Cement_C",
+    "name_ko": "콘크리트",
+    "name_en": "Concrete",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_CircuitBoardHighSpeed_C",
+    "name_ko": "인공지능 진폭 제한 회로",
+    "name_en": "AI Limiter",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_CircuitBoard_C",
+    "name_ko": "회로 기판",
+    "name_en": "Circuit Board",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_Coal_C",
+    "name_ko": "석탄",
+    "name_en": "Coal",
+    "is_raw_resource": true,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_CompactedCoal_C",
+    "name_ko": "압축 석탄",
+    "name_en": "Compacted Coal",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_ComputerSuper_C",
+    "name_ko": "슈퍼컴퓨터",
+    "name_en": "Supercomputer",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_Computer_C",
+    "name_ko": "컴퓨터",
+    "name_en": "Computer",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_CoolingSystem_C",
+    "name_ko": "냉각 시스템",
+    "name_en": "Cooling System",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_CopperDust_C",
+    "name_ko": "구리 분말",
+    "name_en": "Copper Powder",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_CopperIngot_C",
+    "name_ko": "구리 주괴",
+    "name_en": "Copper Ingot",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_CopperSheet_C",
+    "name_ko": "구리판",
+    "name_en": "Copper Sheet",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_CrystalOscillator_C",
+    "name_ko": "수정 발진기",
+    "name_en": "Crystal Oscillator",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_CrystalShard_C",
+    "name_ko": "동력 조각",
+    "name_en": "Power Shard",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_Crystal_C",
+    "name_ko": "파란색 파워 슬러그",
+    "name_en": "Blue Power Slug",
+    "is_raw_resource": true,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_Crystal_mk2_C",
+    "name_ko": "노란색 파워 슬러그",
+    "name_en": "Yellow Power Slug",
+    "is_raw_resource": true,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_Crystal_mk3_C",
+    "name_ko": "보라색 파워 슬러그",
+    "name_en": "Purple Power Slug",
+    "is_raw_resource": true,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_DarkEnergy_C",
+    "name_ko": "암흑 물질 잔여물",
+    "name_en": "Dark Matter Residue",
+    "is_raw_resource": false,
+    "unit": "m3"
+  },
+  {
+    "id": "Desc_DarkMatter_C",
+    "name_ko": "암흑 물질 수정",
+    "name_en": "Dark Matter Crystal",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_Diamond_C",
+    "name_ko": "다이아몬드",
+    "name_en": "Diamonds",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_DissolvedSilica_C",
+    "name_ko": "용해된 이산화규소",
+    "name_en": "Dissolved Silica",
+    "is_raw_resource": true,
+    "unit": "m3"
+  },
+  {
+    "id": "Desc_ElectromagneticControlRod_C",
+    "name_ko": "전자기 제어봉",
+    "name_en": "Electromagnetic Control Rod",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_Fabric_C",
+    "name_ko": "직물",
+    "name_en": "Fabric",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_FicsiteIngot_C",
+    "name_ko": "픽사이트 주괴",
+    "name_en": "Ficsite Ingot",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_FicsiteMesh_C",
+    "name_ko": "픽사이트 삼각판",
+    "name_en": "Ficsite Trigon",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_FicsoniumFuelRod_C",
+    "name_ko": "픽소니움 연료봉",
+    "name_en": "Ficsonium Fuel Rod",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_Ficsonium_C",
+    "name_ko": "픽소니움",
+    "name_en": "Ficsonium",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_Filter_C",
+    "name_ko": "가스 필터",
+    "name_en": "Gas Filter",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_Fireworks_Projectile_01_C",
+    "name_ko": "달콤한 폭죽",
+    "name_en": "Sweet Fireworks",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_Fireworks_Projectile_02_C",
+    "name_ko": "화려한 폭죽",
+    "name_en": "Fancy Fireworks",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_Fireworks_Projectile_03_C",
+    "name_ko": "반짝이는 폭죽",
+    "name_en": "Sparkly Fireworks",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_FluidCanister_C",
+    "name_ko": "빈 통",
+    "name_en": "Empty Canister",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_Fuel_C",
+    "name_ko": "포장된 연료",
+    "name_en": "Packaged Fuel",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_GasTank_C",
+    "name_ko": "빈 가스통",
+    "name_en": "Empty Fluid Tank",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_GenericBiomass_C",
+    "name_ko": "바이오매스",
+    "name_en": "Biomass",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_GoldIngot_C",
+    "name_ko": "카테리움 주괴",
+    "name_en": "Caterium Ingot",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_GunpowderMK2_C",
+    "name_ko": "무연 화약",
+    "name_en": "Smokeless Powder",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_Gunpowder_C",
+    "name_ko": "흑색 화약",
+    "name_en": "Black Powder",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_HatcherParts_C",
+    "name_ko": "해처 시체",
+    "name_en": "Hatcher Remains",
+    "is_raw_resource": true,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_HazmatFilter_C",
+    "name_ko": "아이오딘이 주입된 필터",
+    "name_en": "Iodine-Infused Filter",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_HeavyOilResidue_C",
+    "name_ko": "중유 잔여물",
+    "name_en": "Heavy Oil Residue",
+    "is_raw_resource": false,
+    "unit": "m3"
+  },
+  {
+    "id": "Desc_HighSpeedConnector_C",
+    "name_ko": "고속 커넥터",
+    "name_en": "High-Speed Connector",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_HighSpeedWire_C",
+    "name_ko": "고속 전선",
+    "name_en": "Quickwire",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_HogParts_C",
+    "name_ko": "호그 시체",
+    "name_en": "Hog Remains",
+    "is_raw_resource": true,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_IonizedFuel_C",
+    "name_ko": "이온화 연료",
+    "name_en": "Ionized Fuel",
+    "is_raw_resource": false,
+    "unit": "m3"
+  },
+  {
+    "id": "Desc_IronIngot_C",
+    "name_ko": "철 주괴",
+    "name_en": "Iron Ingot",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_IronPlateReinforced_C",
+    "name_ko": "보강된 철판",
+    "name_en": "Reinforced Iron Plate",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_IronPlate_C",
+    "name_ko": "철판",
+    "name_en": "Iron Plate",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_IronRod_C",
+    "name_ko": "철봉",
+    "name_en": "Iron Rod",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_IronScrew_C",
+    "name_ko": "나사",
+    "name_en": "Screws",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_Leaves_C",
+    "name_ko": "이파리",
+    "name_en": "Leaves",
+    "is_raw_resource": true,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_LiquidBiofuel_C",
+    "name_ko": "액체 바이오 연료",
+    "name_en": "Liquid Biofuel",
+    "is_raw_resource": false,
+    "unit": "m3"
+  },
+  {
+    "id": "Desc_LiquidFuel_C",
+    "name_ko": "연료",
+    "name_en": "Fuel",
+    "is_raw_resource": false,
+    "unit": "m3"
+  },
+  {
+    "id": "Desc_LiquidOil_C",
+    "name_ko": "원유",
+    "name_en": "Crude Oil",
+    "is_raw_resource": true,
+    "unit": "m3"
+  },
+  {
+    "id": "Desc_LiquidTurboFuel_C",
+    "name_ko": "터보 연료",
+    "name_en": "Turbofuel",
+    "is_raw_resource": false,
+    "unit": "m3"
+  },
+  {
+    "id": "Desc_ModularFrameFused_C",
+    "name_ko": "융합된 모듈식 골조",
+    "name_en": "Fused Modular Frame",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_ModularFrameHeavy_C",
+    "name_ko": "고중량 모듈식 골조",
+    "name_en": "Heavy Modular Frame",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_ModularFrameLightweight_C",
+    "name_ko": "무선 제어 장치",
+    "name_en": "Radio Control Unit",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_ModularFrame_C",
+    "name_ko": "모듈식 골조",
+    "name_en": "Modular Frame",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_MotorLightweight_C",
+    "name_ko": "터보 모터",
+    "name_en": "Turbo Motor",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_Motor_C",
+    "name_ko": "모터",
+    "name_en": "Motor",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_Mycelia_C",
+    "name_ko": "균사",
+    "name_en": "Mycelia",
+    "is_raw_resource": true,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_NitricAcid_C",
+    "name_ko": "질산",
+    "name_en": "Nitric Acid",
+    "is_raw_resource": false,
+    "unit": "m3"
+  },
+  {
+    "id": "Desc_NitrogenGas_C",
+    "name_ko": "질소 가스",
+    "name_en": "Nitrogen Gas",
+    "is_raw_resource": true,
+    "unit": "m3"
+  },
+  {
+    "id": "Desc_NobeliskCluster_C",
+    "name_ko": "집속 노벨리스크",
+    "name_en": "Cluster Nobelisk",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_NobeliskExplosive_C",
+    "name_ko": "노벨리스크",
+    "name_en": "Nobelisk",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_NobeliskGas_C",
+    "name_ko": "가스 노벨리스크",
+    "name_en": "Gas Nobelisk",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_NobeliskNuke_C",
+    "name_ko": "핵 노벨리스크",
+    "name_en": "Nuke Nobelisk",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_NobeliskShockwave_C",
+    "name_ko": "펄스 노벨리스크",
+    "name_en": "Pulse Nobelisk",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_NonFissibleUranium_C",
+    "name_ko": "비분열성 우라늄",
+    "name_en": "Non-Fissile Uranium",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_NuclearFuelRod_C",
+    "name_ko": "우라늄 연료봉",
+    "name_en": "Uranium Fuel Rod",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_NuclearWaste_C",
+    "name_ko": "우라늄 폐기물",
+    "name_en": "Uranium Waste",
+    "is_raw_resource": true,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_OreBauxite_C",
+    "name_ko": "보크사이트",
+    "name_en": "Bauxite",
+    "is_raw_resource": true,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_OreCopper_C",
+    "name_ko": "구리 광석",
+    "name_en": "Copper Ore",
+    "is_raw_resource": true,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_OreGold_C",
+    "name_ko": "카테리움 광석",
+    "name_en": "Caterium Ore",
+    "is_raw_resource": true,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_OreIron_C",
+    "name_ko": "철 광석",
+    "name_en": "Iron Ore",
+    "is_raw_resource": true,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_OreUranium_C",
+    "name_ko": "우라늄",
+    "name_en": "Uranium",
+    "is_raw_resource": true,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_PackagedAlumina_C",
+    "name_ko": "포장된 알루미나 용액",
+    "name_en": "Packaged Alumina Solution",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_PackagedBiofuel_C",
+    "name_ko": "포장된 액체 바이오 연료",
+    "name_en": "Packaged Liquid Biofuel",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_PackagedIonizedFuel_C",
+    "name_ko": "포장된 이온화 연료",
+    "name_en": "Packaged Ionized Fuel",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_PackagedNitricAcid_C",
+    "name_ko": "포장된 질산",
+    "name_en": "Packaged Nitric Acid",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_PackagedNitrogenGas_C",
+    "name_ko": "포장된 질소 가스",
+    "name_en": "Packaged Nitrogen Gas",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_PackagedOilResidue_C",
+    "name_ko": "포장된 중유 잔여물",
+    "name_en": "Packaged Heavy Oil Residue",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_PackagedOil_C",
+    "name_ko": "포장된 원유",
+    "name_en": "Packaged Oil",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_PackagedRocketFuel_C",
+    "name_ko": "포장된 로켓 연료",
+    "name_en": "Packaged Rocket Fuel",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_PackagedSulfuricAcid_C",
+    "name_ko": "포장된 황산",
+    "name_en": "Packaged Sulfuric Acid",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_PackagedWater_C",
+    "name_ko": "포장된 물",
+    "name_en": "Packaged Water",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_PetroleumCoke_C",
+    "name_ko": "석유 코크스",
+    "name_en": "Petroleum Coke",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_Plastic_C",
+    "name_ko": "플라스틱",
+    "name_en": "Plastic",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_PlutoniumCell_C",
+    "name_ko": "포장된 플루토늄 전지",
+    "name_en": "Encased Plutonium Cell",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_PlutoniumFuelRod_C",
+    "name_ko": "플루토늄 연료봉",
+    "name_en": "Plutonium Fuel Rod",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_PlutoniumPellet_C",
+    "name_ko": "플루토늄 펠릿",
+    "name_en": "Plutonium Pellet",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_PlutoniumWaste_C",
+    "name_ko": "플루토늄 폐기물",
+    "name_en": "Plutonium Waste",
+    "is_raw_resource": true,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_PolymerResin_C",
+    "name_ko": "폴리머 수지",
+    "name_en": "Polymer Resin",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_PressureConversionCube_C",
+    "name_ko": "압력 변환 큐브",
+    "name_en": "Pressure Conversion Cube",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_QuantumEnergy_C",
+    "name_ko": "들뜬 광자 물질",
+    "name_en": "Excited Photonic Matter",
+    "is_raw_resource": false,
+    "unit": "m3"
+  },
+  {
+    "id": "Desc_QuantumOscillator_C",
+    "name_ko": "중첩 발진기",
+    "name_en": "Superposition Oscillator",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_QuartzCrystal_C",
+    "name_ko": "석영 수정",
+    "name_en": "Quartz Crystal",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_RawQuartz_C",
+    "name_ko": "석영 원석",
+    "name_en": "Raw Quartz",
+    "is_raw_resource": true,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_Rebar_Explosive_C",
+    "name_ko": "폭발형 철근",
+    "name_en": "Explosive Rebar",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_Rebar_Spreadshot_C",
+    "name_ko": "파편 철근",
+    "name_en": "Shatter Rebar",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_Rebar_Stunshot_C",
+    "name_ko": "스턴 철근",
+    "name_en": "Stun Rebar",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_RocketFuel_C",
+    "name_ko": "로켓 연료",
+    "name_en": "Rocket Fuel",
+    "is_raw_resource": false,
+    "unit": "m3"
+  },
+  {
+    "id": "Desc_Rotor_C",
+    "name_ko": "회전자",
+    "name_en": "Rotor",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_Rubber_C",
+    "name_ko": "고무",
+    "name_en": "Rubber",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_SAMFluctuator_C",
+    "name_ko": "S.A.M. 변동기",
+    "name_en": "SAM Fluctuator",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_SAMIngot_C",
+    "name_ko": "재생 S.A.M.",
+    "name_en": "Reanimated SAM",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_SAM_C",
+    "name_ko": "S.A.M.",
+    "name_en": "SAM",
+    "is_raw_resource": true,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_Silica_C",
+    "name_ko": "이산화규소",
+    "name_en": "Silica",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_SingularityCell_C",
+    "name_ko": "특이점 셀",
+    "name_en": "Singularity Cell",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_Snow_C",
+    "name_ko": "FICSMAS 진짜 눈",
+    "name_en": "FICSMAS Actual Snow",
+    "is_raw_resource": true,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_SpaceElevatorPart_10_C",
+    "name_ko": "생화학 조형기",
+    "name_en": "Biochemical Sculptor",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_SpaceElevatorPart_11_C",
+    "name_ko": "탄도 워프 드라이브",
+    "name_en": "Ballistic Warp Drive",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_SpaceElevatorPart_12_C",
+    "name_ko": "인공지능 확장 서버",
+    "name_en": "AI Expansion Server",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_SpaceElevatorPart_1_C",
+    "name_ko": "지능형 도금판",
+    "name_en": "Smart Plating",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_SpaceElevatorPart_2_C",
+    "name_ko": "다용도 골조",
+    "name_en": "Versatile Framework",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_SpaceElevatorPart_3_C",
+    "name_ko": "자동 배선기",
+    "name_en": "Automated Wiring",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_SpaceElevatorPart_4_C",
+    "name_ko": "모듈 엔진",
+    "name_en": "Modular Engine",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_SpaceElevatorPart_5_C",
+    "name_ko": "적응형 제어 장치",
+    "name_en": "Adaptive Control Unit",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_SpaceElevatorPart_6_C",
+    "name_ko": "자기장 발생기",
+    "name_en": "Magnetic Field Generator",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_SpaceElevatorPart_7_C",
+    "name_ko": "어셈블리 지휘 시스템",
+    "name_en": "Assembly Director System",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_SpaceElevatorPart_8_C",
+    "name_ko": "열 추진 로켓",
+    "name_en": "Thermal Propulsion Rocket",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_SpaceElevatorPart_9_C",
+    "name_ko": "핵 파스타",
+    "name_en": "Nuclear Pasta",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_SpikedRebar_C",
+    "name_ko": "철제 철근",
+    "name_en": "Iron Rebar",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_SpitterParts_C",
+    "name_ko": "스피터 시체",
+    "name_en": "Spitter Remains",
+    "is_raw_resource": true,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_Stator_C",
+    "name_ko": "고정자",
+    "name_en": "Stator",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_SteelIngot_C",
+    "name_ko": "강철 주괴",
+    "name_en": "Steel Ingot",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_SteelPipe_C",
+    "name_ko": "강철 파이프",
+    "name_en": "Steel Pipe",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_SteelPlateReinforced_C",
+    "name_ko": "포장된 산업용 빔",
+    "name_en": "Encased Industrial Beam",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_SteelPlate_C",
+    "name_ko": "강철 빔",
+    "name_en": "Steel Beam",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_StingerParts_C",
+    "name_ko": "스팅어 시체",
+    "name_en": "Stinger Remains",
+    "is_raw_resource": true,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_Stone_C",
+    "name_ko": "석회석",
+    "name_en": "Limestone",
+    "is_raw_resource": true,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_Sulfur_C",
+    "name_ko": "황",
+    "name_en": "Sulfur",
+    "is_raw_resource": true,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_SulfuricAcid_C",
+    "name_ko": "황산",
+    "name_en": "Sulfuric Acid",
+    "is_raw_resource": false,
+    "unit": "m3"
+  },
+  {
+    "id": "Desc_TemporalProcessor_C",
+    "name_ko": "신경 양자 처리기",
+    "name_en": "Neural-Quantum Processor",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_TimeCrystal_C",
+    "name_ko": "시간 수정",
+    "name_en": "Time Crystal",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_TurboFuel_C",
+    "name_ko": "포장된 터보 연료",
+    "name_en": "Packaged Turbofuel",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_UraniumCell_C",
+    "name_ko": "포장된 우라늄 전지",
+    "name_en": "Encased Uranium Cell",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_Water_C",
+    "name_ko": "물",
+    "name_en": "Water",
+    "is_raw_resource": true,
+    "unit": "m3"
+  },
+  {
+    "id": "Desc_Wire_C",
+    "name_ko": "전선",
+    "name_en": "Wire",
+    "is_raw_resource": false,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_Wood_C",
+    "name_ko": "나무",
+    "name_en": "Wood",
+    "is_raw_resource": true,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_XmasBow_C",
+    "name_ko": "FICSMAS 리본",
+    "name_en": "FICSMAS Bow",
+    "is_raw_resource": true,
+    "unit": "items"
+  },
+  {
+    "id": "Desc_XmasBranch_C",
+    "name_ko": "FICSMAS 나뭇가지",
+    "name_en": "FICSMAS Tree Branch",
+    "is_raw_resource": true,
+    "unit": "items"
+  },
+  {
+    "id": "Electricity_MW",
+    "name_ko": "전기",
+    "name_en": "Electricity",
+    "is_raw_resource": false,
+    "unit": "mw"
+  }
+]

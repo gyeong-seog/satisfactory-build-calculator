@@ -1,0 +1,165 @@
+[
+  {
+    "id": "Build_AssemblerMk1_C",
+    "name_ko": "조립기",
+    "name_en": "Assembler",
+    "base_power_mw": 15.0,
+    "power_exponent": 1.321929,
+    "boost_power_exponent": 2.0,
+    "sloop_slots": 2,
+    "variable_min_mw": 0.0,
+    "variable_max_mw": 0.0
+  },
+  {
+    "id": "Build_Blender_C",
+    "name_ko": "혼합기",
+    "name_en": "Blender",
+    "base_power_mw": 75.0,
+    "power_exponent": 1.321929,
+    "boost_power_exponent": 2.0,
+    "sloop_slots": 4,
+    "variable_min_mw": 0.0,
+    "variable_max_mw": 0.0
+  },
+  {
+    "id": "Build_ConstructorMk1_C",
+    "name_ko": "제작기",
+    "name_en": "Constructor",
+    "base_power_mw": 4.0,
+    "power_exponent": 1.321929,
+    "boost_power_exponent": 2.0,
+    "sloop_slots": 1,
+    "variable_min_mw": 0.0,
+    "variable_max_mw": 0.0
+  },
+  {
+    "id": "Build_Converter_C",
+    "name_ko": "변환기",
+    "name_en": "Converter",
+    "base_power_mw": 0.0,
+    "power_exponent": 1.321929,
+    "boost_power_exponent": 2.0,
+    "sloop_slots": 2,
+    "variable_min_mw": 100.0,
+    "variable_max_mw": 400.0
+  },
+  {
+    "id": "Build_FoundryMk1_C",
+    "name_ko": "주조소",
+    "name_en": "Foundry",
+    "base_power_mw": 16.0,
+    "power_exponent": 1.321929,
+    "boost_power_exponent": 2.0,
+    "sloop_slots": 2,
+    "variable_min_mw": 0.0,
+    "variable_max_mw": 0.0
+  },
+  {
+    "id": "Build_HadronCollider_C",
+    "name_ko": "입자 가속기",
+    "name_en": "Particle Accelerator",
+    "base_power_mw": 0.0,
+    "power_exponent": 1.321929,
+    "boost_power_exponent": 2.0,
+    "sloop_slots": 4,
+    "variable_min_mw": 250.0,
+    "variable_max_mw": 1500.0
+  },
+  {
+    "id": "Build_ManufacturerMk1_C",
+    "name_ko": "제조기",
+    "name_en": "Manufacturer",
+    "base_power_mw": 55.0,
+    "power_exponent": 1.321929,
+    "boost_power_exponent": 2.0,
+    "sloop_slots": 4,
+    "variable_min_mw": 0.0,
+    "variable_max_mw": 0.0
+  },
+  {
+    "id": "Build_OilRefinery_C",
+    "name_ko": "정제소",
+    "name_en": "Refinery",
+    "base_power_mw": 30.0,
+    "power_exponent": 1.321929,
+    "boost_power_exponent": 2.0,
+    "sloop_slots": 2,
+    "variable_min_mw": 0.0,
+    "variable_max_mw": 0.0
+  },
+  {
+    "id": "Build_Packager_C",
+    "name_ko": "포장기",
+    "name_en": "Packager",
+    "base_power_mw": 10.0,
+    "power_exponent": 1.321929,
+    "boost_power_exponent": 2.0,
+    "sloop_slots": 0,
+    "variable_min_mw": 0.0,
+    "variable_max_mw": 0.0
+  },
+  {
+    "id": "Build_QuantumEncoder_C",
+    "name_ko": "양자 인코더",
+    "name_en": "Quantum Encoder",
+    "base_power_mw": 0.0,
+    "power_exponent": 1.321929,
+    "boost_power_exponent": 2.0,
+    "sloop_slots": 4,
+    "variable_min_mw": 0.0,
+    "variable_max_mw": 2000.0
+  },
+  {
+    "id": "Build_SmelterMk1_C",
+    "name_ko": "제련기",
+    "name_en": "Smelter",
+    "base_power_mw": 4.0,
+    "power_exponent": 1.321929,
+    "boost_power_exponent": 2.0,
+    "sloop_slots": 1,
+    "variable_min_mw": 0.0,
+    "variable_max_mw": 0.0
+  },
+  {
+    "id": "Build_GeneratorBiomass_Automated_C",
+    "name_ko": "바이오매스 연소기",
+    "name_en": "Biomass Burner",
+    "base_power_mw": 0,
+    "sloop_slots": 0
+  },
+  {
+    "id": "Build_GeneratorCoal_C",
+    "name_ko": "석탄 발전기",
+    "name_en": "Coal-Powered Generator",
+    "base_power_mw": 0,
+    "sloop_slots": 0
+  },
+  {
+    "id": "Build_GeneratorFuel_C",
+    "name_ko": "연료 발전기",
+    "name_en": "Fuel-Powered Generator",
+    "base_power_mw": 0,
+    "sloop_slots": 0
+  },
+  {
+    "id": "Build_GeneratorNuclear_C",
+    "name_ko": "원자력 발전소",
+    "name_en": "Nuclear Power Plant",
+    "base_power_mw": 0,
+    "sloop_slots": 0
+  },
+  {
+    "id": "Build_GeneratorGeoThermal_C",
+    "name_ko": "지열 발전기",
+    "name_en": "Geothermal Generator",
+    "base_power_mw": 0,
+    "sloop_slots": 0
+  },
+  {
+    "id": "Build_AlienPowerBuilding_C",
+    "name_ko": "외계 전력 증강기",
+    "name_en": "Alien Power Augmenter",
+    "base_power_mw": 0,
+    "sloop_slots": 0
+  }
+]
