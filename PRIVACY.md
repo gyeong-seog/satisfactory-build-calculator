@@ -10,7 +10,7 @@ The application does not collect, transmit, sell, or share personal information,
 
 ## Local settings
 
-The selected language, window state, and configured global shortcut are stored locally by Qt's settings system on the user's Windows account. This information never leaves the device through the application. Users can remove these settings by deleting the application's local Qt settings entry.
+The selected language, window state, configured global shortcuts, and goal HUD position are stored locally by Qt's settings system on the user's Windows account. Project and goal snapshots (selected items, recipes, planned building counts, and manual progress) are stored in a local `projects.json` file under the user's application-data folder. This information never leaves the device through the application. Users can remove it by deleting the application's local settings entry and project file.
 
 ## Game and account access
 

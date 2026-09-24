@@ -29,17 +29,19 @@ from PySide6.QtWidgets import (
 from core.calculator import CalculationError, ProductionCalculator
 from core.data_loader import DataError, load_production_data
 from core.models import MachineSettings
+from core.projects import ProjectManager
 from graphics.production_scene import ProductionGraphicsView, ProductionScene
 from .global_hotkey import GlobalHotkeyManager
 from .legend_widget import BuildingLegend
 from .i18n import tr
+from .project_hud import ProjectHud
 from .summary_panel import SummaryPanel
 from .target_panel import TargetPanel
 from .theme import APP_STYLESHEET
 
 
 class MainWindow(QMainWindow):
-    def __init__(self, data_dir: Path):
+    def __init__(self, data_dir: Path, project_storage_path: Path | None = None):
         super().__init__()
         self.language = "ko"
         self.setWindowTitle(tr(self.language, "window_title"))
@@ -61,6 +63,9 @@ class MainWindow(QMainWindow):
         self._restore_geometry: QRect | None = None
         self.settings = QSettings("SatisfactoryBuildCalculator", "SatisfactoryBuildCalculator")
         self.hotkey_manager = GlobalHotkeyManager(self._toggle_visibility)
+        self.quest_hotkey_manager = GlobalHotkeyManager(self._activate_quest_shortcut)
+        self.project_manager = ProjectManager(self.data, project_storage_path)
+        self.project_hud = ProjectHud(self.project_manager, self.language)
 
         self.scene = ProductionScene(self.data, self)
         self.scene.recipe_selection_changed.connect(self._change_recipe)
@@ -175,6 +180,10 @@ class MainWindow(QMainWindow):
         self.language_combo.currentIndexChanged.connect(self._language_changed)
         toolbar.addWidget(self.language_combo)
 
+        self.quest_shortcut_button = QPushButton(tr(self.language, "quest_shortcut_settings"), toolbar)
+        self.quest_shortcut_button.clicked.connect(self._open_quest_shortcut_dialog)
+        toolbar.addWidget(self.quest_shortcut_button)
+
         self.shortcut_button = QPushButton(tr(self.language, "shortcut_settings"), toolbar)
         self.shortcut_button.clicked.connect(self._open_shortcut_dialog)
         toolbar.addWidget(self.shortcut_button)
@@ -215,23 +224,38 @@ class MainWindow(QMainWindow):
             self.tray_icon.show()
 
     def _restore_hotkey(self) -> None:
-        saved = str(self.settings.value("toggle_hotkey", "Ctrl+Shift+S"))
-        sequence = QKeySequence(saved, QKeySequence.SequenceFormat.PortableText)
-        if not self.hotkey_manager.register(sequence):
-            sequence = QKeySequence("Ctrl+Shift+S")
-            self.hotkey_manager.register(sequence)
+        self._restore_one_hotkey(self.hotkey_manager, "toggle_hotkey", "Ctrl+Shift+S")
+        self._restore_one_hotkey(self.quest_hotkey_manager, "quest_hotkey", "Ctrl+Shift+Q")
         self._update_shortcut_tooltip()
 
+    def _restore_one_hotkey(self, manager: GlobalHotkeyManager, key: str, default: str) -> None:
+        saved = str(self.settings.value(key, default))
+        sequence = QKeySequence(saved, QKeySequence.SequenceFormat.PortableText)
+        if not manager.register(sequence):
+            manager.register(QKeySequence(default))
+
     def _open_shortcut_dialog(self) -> None:
-        previous_sequence = QKeySequence(self.hotkey_manager.sequence)
+        self._edit_shortcut(
+            self.hotkey_manager, "toggle_hotkey", "shortcut_title", "shortcut_prompt",
+        )
+
+    def _open_quest_shortcut_dialog(self) -> None:
+        self._edit_shortcut(
+            self.quest_hotkey_manager, "quest_hotkey", "quest_shortcut_title",
+            "quest_shortcut_prompt",
+        )
+
+    def _edit_shortcut(self, manager: GlobalHotkeyManager, settings_key: str,
+                       title_key: str, prompt_key: str) -> None:
+        previous_sequence = QKeySequence(manager.sequence)
         dialog = QDialog(self)
-        dialog.setWindowTitle(tr(self.language, "shortcut_title"))
+        dialog.setWindowTitle(tr(self.language, title_key))
         layout = QVBoxLayout(dialog)
-        layout.addWidget(QLabel(tr(self.language, "shortcut_prompt"), dialog))
+        layout.addWidget(QLabel(tr(self.language, prompt_key), dialog))
         example = QLabel(tr(self.language, "shortcut_example"), dialog)
         example.setStyleSheet("color: #9eabb3; font-size: 9pt; padding: 2px 0 5px 0;")
         layout.addWidget(example)
-        editor = QKeySequenceEdit(self.hotkey_manager.sequence, dialog)
+        editor = QKeySequenceEdit(manager.sequence, dialog)
         editor.setMaximumSequenceLength(1)
         layout.addWidget(editor)
         buttons = QDialogButtonBox(
@@ -243,25 +267,49 @@ class MainWindow(QMainWindow):
         layout.addWidget(buttons)
         # Release the current shortcut while recording so pressing the same
         # combination is captured by the editor instead of hiding the window.
-        self.hotkey_manager.unregister()
+        manager.unregister()
         if dialog.exec() != QDialog.DialogCode.Accepted:
-            self.hotkey_manager.register(previous_sequence)
+            manager.register(previous_sequence)
             return
 
         sequence = editor.keySequence()
-        if not self.hotkey_manager.register(sequence):
-            hotkey_error = self.hotkey_manager.last_error
-            self.hotkey_manager.register(previous_sequence)
+        if not manager.register(sequence):
+            hotkey_error = manager.last_error
+            manager.register(previous_sequence)
             message_key = "shortcut_in_use" if hotkey_error == "in_use" else "shortcut_invalid"
-            QMessageBox.warning(self, tr(self.language, "shortcut_title"), tr(self.language, message_key))
+            QMessageBox.warning(self, tr(self.language, title_key), tr(self.language, message_key))
             return
         portable = sequence.toString(QKeySequence.SequenceFormat.PortableText)
-        self.settings.setValue("toggle_hotkey", portable)
+        self.settings.setValue(settings_key, portable)
         self._update_shortcut_tooltip()
 
     def _update_shortcut_tooltip(self) -> None:
         shortcut = self.hotkey_manager.sequence.toString(QKeySequence.SequenceFormat.NativeText)
         self.shortcut_button.setToolTip(tr(self.language, "shortcut_current", shortcut=shortcut))
+        quest_shortcut = self.quest_hotkey_manager.sequence.toString(QKeySequence.SequenceFormat.NativeText)
+        self.quest_shortcut_button.setToolTip(
+            tr(self.language, "quest_shortcut_current", shortcut=quest_shortcut)
+        )
+
+    def _activate_quest_shortcut(self) -> None:
+        """Capture the selected card, then leave only the compact HUD visible."""
+
+        if self.isVisible():
+            node = self.scene.selected_node()
+            if node is None:
+                QMessageBox.information(
+                    self, tr(self.language, "quest_hud_title"),
+                    tr(self.language, "quest_select_card"),
+                )
+                return
+            self.project_manager.add_subtree_snapshot(self.current_target_id, self.current_rate, node)
+            self.project_hud.show_hud()
+            self._hide_to_tray()
+            return
+        if self.project_hud.isVisible():
+            self.project_hud.hide()
+        else:
+            self.project_hud.show_hud()
 
     def _tray_activated(self, reason: QSystemTrayIcon.ActivationReason) -> None:
         if reason in (
@@ -388,10 +436,12 @@ class MainWindow(QMainWindow):
         self.top_checkbox.setText(tr(language, "always_top"))
         self.toggle_visibility_action.setText(tr(language, "toggle_visibility"))
         self.shortcut_button.setText(tr(language, "shortcut_settings"))
+        self.quest_shortcut_button.setText(tr(language, "quest_shortcut_settings"))
         self.quit_button.setText(tr(language, "quit_app"))
         self.tray_toggle_action.setText(tr(language, "tray_hide" if self.isVisible() else "tray_open"))
         self.tray_quit_action.setText(tr(language, "quit_app"))
         self.tray_icon.setToolTip(tr(language, "window_title"))
+        self.project_hud.set_language(language)
         self._update_shortcut_tooltip()
         self._update_selection_summary("")
         self.target_panel.set_language(language)
@@ -439,16 +489,21 @@ class MainWindow(QMainWindow):
     def _quit_application(self) -> None:
         self._force_quit = True
         self.hotkey_manager.dispose()
+        self.quest_hotkey_manager.dispose()
+        self.project_hud.dispose()
         self.tray_icon.hide()
         QApplication.instance().quit()
 
     def closeEvent(self, event: QCloseEvent) -> None:
         if self._force_quit:
             self.hotkey_manager.dispose()
+            self.quest_hotkey_manager.dispose()
             event.accept()
             return
         if not self.tray_icon.isVisible():
             self.hotkey_manager.dispose()
+            self.quest_hotkey_manager.dispose()
+            self.project_hud.dispose()
             event.accept()
             QApplication.instance().quit()
             return

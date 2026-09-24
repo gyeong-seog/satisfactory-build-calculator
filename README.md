@@ -20,6 +20,9 @@ Satisfactory의 생산 목표부터 원자재까지 공정을 계산하고 시�
 - 한국어/영어 전환
 - 창 닫기 시 시스템 트레이 대기
 - 사용자가 지정하는 Windows 전역 표시/숨김 단축키
+- 선택한 생산 카드와 하위 공정을 목표로 등록하는 별도 전역 단축키
+- 게임 중 확인할 수 있는 이동식 목표 HUD와 수동 설치 진행도
+- 프로젝트·목표 진행 상태 및 HUD 위치의 로컬 저장·복구
 
 ## 다운로드
 
@@ -27,7 +30,7 @@ Satisfactory의 생산 목표부터 원자재까지 공정을 계산하고 시�
 
 현재 공개 초기 버전은 코드 서명이 없으므로 Windows SmartScreen이 `알 수 없는 게시자` 경고를 표시할 수 있습니다. 다운로드한 파일의 SHA-256을 Release에 첨부된 `SHA256SUMS.txt`와 비교할 수 있습니다.
 
-이 프로젝트는 향후 Windows Release 서명에 SignPath Foundation의 무료 오픈소스 코드 서명 서비스를 사용하기 위해 신청 중입니다. 승인 이후의 서명된 버전은 Release 설명에 명확히 표시하며, 현재 `v0.1.0`은 서명되지 않은 초기 버전입니다. 자세한 운영 원칙은 [Code signing policy](CODE_SIGNING_POLICY.md)를 확인하세요.
+이 프로젝트는 향후 Windows Release 서명에 SignPath Foundation의 무료 오픈소스 코드 서명 서비스를 사용하기 위해 신청 중입니다. 승인 이후의 서명된 버전은 Release 설명에 명확히 표시하며, 현재 `v0.2.0`은 서명되지 않은 1차 완성본입니다. 자세한 운영 원칙은 [Code signing policy](CODE_SIGNING_POLICY.md)를 확인하세요.
 
 ```powershell
 Get-FileHash .\SatisfactoryBuildCalculator.exe -Algorithm SHA256
@@ -44,6 +47,9 @@ python -m venv .venv
 ```
 
 기본 표시/숨김 단축키는 `Ctrl+Shift+S`이며 프로그램의 `단축키 설정`에서 변경할 수 있습니다.
+기본 목표 단축키는 `Ctrl+Shift+Q`입니다. 생산 카드를 선택한 뒤 누르면
+해당 카드와 하위 공정이 목표로 등록되고 계산기는 트레이로 숨겨집니다. 이 기능은 현재
+수동 체크리스트이며 게임 프로세스나 저장 파일을 읽지 않습니다.
 
 ## 테스트
 
@@ -67,6 +73,7 @@ Git 태그 `v*`를 푸시하면 GitHub Actions가 Windows 환경에서 테스트
 - 게임 프로세스나 저장 파일을 읽거나 수정하지 않습니다.
 - 인터넷 연결, 사용자 계정, 광고, 분석 정보 수집 기능이 없습니다.
 - 사용자 설정은 Windows의 Qt 설정 저장소에 로컬로만 저장됩니다.
+- 프로젝트와 목표 진행 상태는 사용자 AppData 폴더의 `projects.json`에 로컬로만 저장됩니다.
 
 자세한 내용은 [개인정보 처리방침](PRIVACY.md)을 확인하세요.
 

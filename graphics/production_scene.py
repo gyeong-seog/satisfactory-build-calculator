@@ -158,6 +158,15 @@ class ProductionScene(QGraphicsScene):
                     waiting.append(candidate_id)
         return result
 
+    def selected_node(self) -> ProductionNode | None:
+        """Return the production node selected for quick project capture."""
+
+        selected_item = next(
+            (item for item in self.selectedItems() if isinstance(item, ProductionNodeItem)),
+            None,
+        )
+        return selected_item.node if selected_item is not None else None
+
 
 class ProductionGraphicsView(QGraphicsView):
     def __init__(self, scene: ProductionScene, parent=None):

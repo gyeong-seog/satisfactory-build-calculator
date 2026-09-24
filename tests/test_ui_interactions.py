@@ -2,6 +2,7 @@
 
 import os
 import sys
+import tempfile
 import unittest
 from collections import Counter
 from pathlib import Path
@@ -13,7 +14,7 @@ sys.path.insert(0, str(PROJECT_ROOT))
 
 from PySide6.QtCore import QPoint, Qt
 from PySide6.QtGui import QKeySequence
-from PySide6.QtWidgets import QApplication, QComboBox, QGraphicsItem, QGraphicsProxyWidget, QLabel, QSpinBox, QToolButton
+from PySide6.QtWidgets import QApplication, QComboBox, QFrame, QGraphicsItem, QGraphicsProxyWidget, QLabel, QPushButton, QSpinBox, QToolButton
 from PySide6.QtTest import QTest
 
 from graphics.production_node import RecipeComboBox
@@ -40,11 +41,19 @@ class UiInteractionTests(unittest.TestCase):
         cls.app = QApplication.instance() or QApplication([])
 
     def setUp(self) -> None:
-        self.window = MainWindow(PROJECT_ROOT / "data")
+        self.project_temp = tempfile.TemporaryDirectory()
+        self.window = MainWindow(
+            PROJECT_ROOT / "data", Path(self.project_temp.name) / "projects.json"
+        )
 
     def tearDown(self) -> None:
-        self.window.close()
+        self.window.hotkey_manager.dispose()
+        self.window.quest_hotkey_manager.dispose()
+        self.window.project_hud.dispose()
+        self.window.hide()
+        self.window.deleteLater()
         self.app.processEvents()
+        self.project_temp.cleanup()
 
     def test_completion_click_can_rebuild_and_cancel(self) -> None:
         target_node = self.window.scene.root.children[0]
@@ -354,8 +363,18 @@ class UiInteractionTests(unittest.TestCase):
                         self.window.shortcut_button.geometry().left())
         self.assertLess(self.window.shortcut_button.geometry().right(),
                         self.window.quit_button.geometry().left())
-        self.assertEqual(self.window.shortcut_button.text(), "단축키 설정")
+        self.assertEqual(self.window.shortcut_button.text(), "표시/숨기기 단축키")
         self.assertEqual(self.window.quit_button.text(), "완전 종료")
+        self.assertLess(self.window.language_combo.geometry().right(),
+                        self.window.quest_shortcut_button.geometry().left())
+        self.assertLess(self.window.quest_shortcut_button.geometry().right(),
+                        self.window.shortcut_button.geometry().left())
+        self.assertEqual(self.window.quest_shortcut_button.text(), "목표 추가")
+        self.assertEqual(self.window.project_hud.reset_button.text(), "초기화")
+        self.assertIn("QFrame#hudHeader QLabel", self.window.project_hud.styleSheet())
+        self.assertEqual(self.window.project_hud.resize_handle.cursor().shape(),
+                         Qt.CursorShape.SizeVerCursor)
+        self.assertEqual(self.window.project_hud.resize_handle.height(), 7)
 
     def test_global_hotkey_requires_modifier_and_toggles_visibility(self) -> None:
         self.assertIsNone(GlobalHotkeyManager._to_native(QKeySequence("S")))
@@ -385,6 +404,89 @@ class UiInteractionTests(unittest.TestCase):
         self.window._toggle_visibility()
         self.app.processEvents()
         self.assertTrue(self.window.isMaximized())
+
+    def test_quest_shortcut_captures_selected_card_and_hides_calculator(self) -> None:
+        self.window.show()
+        selected_node = self.window.scene.root.children[0]
+        selected_item = self.window.scene.node_items[selected_node.node_id]
+        selected_item.setSelected(True)
+        self.app.processEvents()
+
+        expected_ids = []
+
+        def visit(node):
+            expected_ids.append(node.node_id)
+            for child in node.children:
+                visit(child)
+
+        visit(selected_node)
+
+        self.window._activate_quest_shortcut()
+        self.app.processEvents()
+        self.assertFalse(self.window.isVisible())
+        self.assertTrue(self.window.project_hud.isVisible())
+        project = self.window.project_manager.active_project
+        self.assertIsNotNone(project)
+        self.assertEqual(len(project.tasks), len(expected_ids))
+        self.assertEqual(project.tasks[0].item_id, selected_node.item_id)
+        self.assertEqual(
+            [task.source_key.split("|", 1)[0] for task in project.tasks], expected_ids
+        )
+
+        first_open_card = self.window.project_hud.task_container.findChildren(
+            QFrame, "questCard", Qt.FindChildOption.FindDirectChildrenOnly
+        )[0]
+        input_text = next(
+            label.text() for label in first_open_card.findChildren(QLabel)
+            if label.text().startswith("입력:\n")
+        )
+        self.assertEqual(len(input_text.splitlines()), len(project.tasks[0].ingredients) + 1)
+
+        self.window.project_manager.toggle_complete(project.tasks[0].task_id)
+        self.app.processEvents()
+        first_card = next(
+            card for card in self.window.project_hud.task_container.findChildren(
+                QFrame, "questCard", Qt.FindChildOption.FindDirectChildrenOnly
+            ) if card.property("complete")
+        )
+        card_labels = [label.text() for label in first_card.findChildren(QLabel)]
+        card_buttons = [button.text() for button in first_card.findChildren(QPushButton)]
+        self.assertIn("✓ 완료", card_labels)
+        self.assertIn("완료 취소", card_buttons)
+        self.assertFalse(any(text.startswith("목표 ") for text in card_labels))
+
+        self.window._activate_quest_shortcut()
+        self.assertFalse(self.window.project_hud.isVisible())
+
+    def test_goal_updates_preserve_scroll_position(self) -> None:
+        self.window.show()
+        root_item = self.window.scene.node_items["root"]
+        root_item.setSelected(True)
+        self.window._activate_quest_shortcut()
+        self.app.processEvents()
+        QTest.qWait(50)
+        bar = self.window.project_hud.scroll.verticalScrollBar()
+        self.assertGreater(bar.maximum(), 0)
+
+        position = min(80, bar.maximum())
+        bar.setValue(position)
+        task = self.window.project_manager.active_project.tasks[0]
+        self.window.project_manager.adjust_installed(task.task_id, 1)
+        self.app.processEvents()
+        QTest.qWait(60)
+        self.assertEqual(bar.value(), position)
+
+    def test_goal_window_keeps_user_selected_height(self) -> None:
+        hud = self.window.project_hud
+        hud._manual_height = True
+        hud._preferred_height = 245
+        hud.rebuild()
+        QTest.qWait(30)
+        self.assertEqual(hud.height(), 245)
+
+        hud.set_language("en")
+        QTest.qWait(30)
+        self.assertEqual(hud.height(), 245)
 
     def test_fit_all_keeps_pan_room(self) -> None:
         self.window.show()

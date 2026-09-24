@@ -17,18 +17,20 @@ MOD_CONTROL = 0x0002
 MOD_SHIFT = 0x0004
 MOD_WIN = 0x0008
 MOD_NOREPEAT = 0x4000
-HOTKEY_ID = 0x5342
+FIRST_HOTKEY_ID = 0x5342
+_next_hotkey_id = FIRST_HOTKEY_ID
 
 
 class _WindowsHotkeyFilter(QAbstractNativeEventFilter):
-    def __init__(self, callback: Callable[[], None]):
+    def __init__(self, hotkey_id: int, callback: Callable[[], None]):
         super().__init__()
+        self._hotkey_id = hotkey_id
         self._callback = callback
 
     def nativeEventFilter(self, event_type, message):
         if bytes(event_type) in (b"windows_generic_MSG", b"windows_dispatcher_MSG"):
             msg = wintypes.MSG.from_address(int(message))
-            if msg.message == WM_HOTKEY and int(msg.wParam) == HOTKEY_ID:
+            if msg.message == WM_HOTKEY and int(msg.wParam) == self._hotkey_id:
                 QTimer.singleShot(0, self._callback)
         return False
 
@@ -37,11 +39,15 @@ class GlobalHotkeyManager:
     """Register one system-wide shortcut and route it into the Qt event loop."""
 
     def __init__(self, callback: Callable[[], None]):
+        global _next_hotkey_id
+
+        self.hotkey_id = _next_hotkey_id
+        _next_hotkey_id += 1
         self.sequence = QKeySequence()
         self.last_error = ""
         self._registered = False
         self._enabled = sys.platform == "win32"
-        self._filter = _WindowsHotkeyFilter(callback) if self._enabled else None
+        self._filter = _WindowsHotkeyFilter(self.hotkey_id, callback) if self._enabled else None
         if self._filter is not None:
             QCoreApplication.instance().installNativeEventFilter(self._filter)
 
@@ -60,7 +66,7 @@ class GlobalHotkeyManager:
             return True
 
         if not ctypes.windll.user32.RegisterHotKey(
-            None, HOTKEY_ID, modifiers | MOD_NOREPEAT, virtual_key
+            None, self.hotkey_id, modifiers | MOD_NOREPEAT, virtual_key
         ):
             if not old_sequence.isEmpty():
                 self.register(old_sequence)
@@ -73,7 +79,7 @@ class GlobalHotkeyManager:
 
     def unregister(self) -> None:
         if self._registered and self._enabled:
-            ctypes.windll.user32.UnregisterHotKey(None, HOTKEY_ID)
+            ctypes.windll.user32.UnregisterHotKey(None, self.hotkey_id)
         self._registered = False
 
     def dispose(self) -> None:

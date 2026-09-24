@@ -11,7 +11,7 @@ from ui.main_window import MainWindow
 def main() -> int:
     app = QApplication(sys.argv)
     app.setApplicationName("Satisfactory Build Calculator")
-    app.setApplicationVersion("0.1.0")
+    app.setApplicationVersion("0.2.0")
     app.setQuitOnLastWindowClosed(False)
 
     # PyInstaller one-file builds unpack bundled resources into _MEIPASS.
