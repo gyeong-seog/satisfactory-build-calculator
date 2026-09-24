@@ -27,6 +27,8 @@ Satisfactory의 생산 목표부터 원자재까지 공정을 계산하고 시�
 
 현재 공개 초기 버전은 코드 서명이 없으므로 Windows SmartScreen이 `알 수 없는 게시자` 경고를 표시할 수 있습니다. 다운로드한 파일의 SHA-256을 Release에 첨부된 `SHA256SUMS.txt`와 비교할 수 있습니다.
 
+이 프로젝트는 향후 Windows Release 서명에 [SignPath Foundation](https://signpath.org/)의 무료 오픈소스 코드 서명 서비스를 사용하는 것을 목표로 신청을 준비하고 있습니다. SignPath 승인을 받아 서명된 버전은 Release 설명에 명확히 표시하며, 현재 `v0.1.0`은 서명되지 않은 초기 버전입니다.
+
 ```powershell
 Get-FileHash .\SatisfactoryBuildCalculator.exe -Algorithm SHA256
 ```
@@ -64,6 +66,8 @@ Git 태그 `v*`를 푸시하면 GitHub Actions가 Windows 환경에서 테스트
 - 게임 프로세스나 저장 파일을 읽거나 수정하지 않습니다.
 - 인터넷 연결, 사용자 계정, 광고, 분석 정보 수집 기능이 없습니다.
 - 사용자 설정은 Windows의 Qt 설정 저장소에 로컬로만 저장됩니다.
+
+자세한 내용은 [개인정보 처리방침](PRIVACY.md)을 확인하세요.
 
 ## 데이터
 
